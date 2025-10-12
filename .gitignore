@@ -1,0 +1,26 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python cache (if using scripts)
+__pycache__/
+*.py[cod]
+
+# Environment files
+.env
+.venv/
+*.log
+
+# Jupyter and temporary notebooks
+.ipynb_checkpoints/
+
+# Backup or temporary files
+*.bak
+*.swp
+*.tmp
