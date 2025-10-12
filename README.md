@@ -1,5 +1,12 @@
 # PrinciplismQA-Demo
 
+<p align="center">
+  <a href="https://arxiv.org/abs/2508.05132">
+    <img src="https://img.shields.io/badge/arXiv-2508.05132-b31b1b.svg" alt="arXiv:2508.05132" />
+  </a>
+  
+</p>
+
 This repository hosts a **public demonstration subset** of the **PrinciplismQA** benchmark (from *“Towards Assessing Medical Ethics from Knowledge to Practice”*), intended for transparency, reproducibility, and community use. We plan to open-source the full PrinciplismQA in due course.
 
 ---
