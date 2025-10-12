@@ -1,0 +1,1902 @@
+[
+    {
+        "id": 37652,
+        "question_id": 1,
+        "question": "Which ethical principle is most challenged in balancing patient confidentiality with public health during COVID-19?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Non-maleficence",
+            "C": "Justice",
+            "D": "Beneficence"
+        },
+        "correct_answer": "A",
+        "explanation": "Autonomy is challenged when balancing patient confidentiality with public health needs during a pandemic. It involves respecting a patient's privacy and control over personal information, which may be compromised when sharing data to track and contain the virus. Other principles like non-maleficence, justice, and beneficence are relevant but do not directly address this tension.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 74915,
+        "question_id": 140,
+        "question": "Which ethical principle is most challenged by deviations from standard practices in AIDS clinical trials due to epidemic severity?",
+        "options": {
+            "A": "Beneficence",
+            "B": "Justice",
+            "C": "Respect for Persons",
+            "D": "Nonmaleficence"
+        },
+        "correct_answer": "D",
+        "explanation": "Nonmaleficence is primarily challenged because deviations from standard practices can increase the risk of harm to participants. This principle emphasizes the obligation to avoid causing harm, which can be compromised when standard protocols are altered under the pressure of an epidemic. While Respect for Persons involves informed consent, the immediate concern in such deviations is the potential harm, aligning more closely with Nonmaleficence. Beneficence and Justice do not directly address the risk of harm in this context.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": true,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 66182,
+        "question_id": 2269,
+        "question": "Which ethical principle is most challenged by routing stroke patients to the nearest hospital without considering hospital capabilities?",
+        "options": {
+            "A": "Non-maleficence",
+            "B": "Autonomy",
+            "C": "Justice",
+            "D": "Beneficence"
+        },
+        "correct_answer": "D",
+        "explanation": "The principle of beneficence is most directly challenged because it involves acting in the best interest of the patient. Routing patients to the nearest hospital without considering the hospital's capabilities may not serve the patient's best interest if the hospital is unable to provide adequate care. Justice (C) is related to fair distribution of resources, but the immediate concern is whether the patient receives appropriate care, which is a matter of beneficence. Non-maleficence (A) refers to avoiding harm, which is indirectly related. Autonomy (B) involves respecting patients' decision-making rights, which is not directly applicable in emergency routing decisions.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 13702,
+        "question_id": 1831,
+        "question": "What ethical principle is at risk when Yale University lacks a formal appeals mechanism for IRB decisions?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Justice",
+            "C": "Beneficence",
+            "D": "Non-maleficence"
+        },
+        "correct_answer": "B",
+        "explanation": "The ethical principle of justice is primarily concerned with fairness and the equitable distribution of benefits and burdens. Without a formal appeals mechanism, individuals or researchers may not have a fair opportunity to contest decisions that they perceive as unjust. Autonomy (A) relates to respecting individuals' rights to make their own decisions, which is less directly relevant to the absence of an appeals process for IRB decisions. Beneficence (C) and non-maleficence (D) are about doing good and avoiding harm, respectively, but they do not specifically address the fairness aspect that is central to justice. Therefore, the lack of an appeals mechanism most directly impacts the principle of justice.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": true
+        }
+    },
+    {
+        "id": 60374,
+        "question_id": 1474,
+        "question": "Which ethical principle ensures patients are not treated as 'test cases' in student clinical training?",
+        "options": {
+            "A": "Beneficence",
+            "B": "Justice",
+            "C": "Autonomy",
+            "D": "Nonmaleficence"
+        },
+        "correct_answer": "C",
+        "explanation": "The ethical principle of autonomy is concerned with respecting patients' rights to make informed decisions about their care, including the decision not to participate in student training as a 'test case.' This principle ensures that patients give informed consent before being involved in educational activities and have the right to refuse being part of a student's learning experience. Beneficence (A) refers to promoting the well-being of others, Justice (B) is about fairness in distributing benefits and burdens, and Nonmaleficence (D) involves avoiding harm to others. While these are important ethical principles, they do not directly address the issue of patient consent in student learning experiences as autonomy does.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 77732,
+        "question_id": 2013,
+        "question": "Which ethical consideration is most relevant when assessing family history for genetic risks like subarachnoid hemorrhage?",
+        "options": {
+            "A": "Ensuring patient confidentiality when discussing family members' medical histories",
+            "B": "Respecting the patient's autonomy in deciding whether to disclose family history",
+            "C": "Balancing the patient's right to privacy with the need to inform them about genetic risks",
+            "D": "Avoiding unnecessary tests that may cause anxiety or harm to the patient"
+        },
+        "correct_answer": "C",
+        "explanation": "The correct answer is C because it addresses the ethical conflict between maintaining the patient's privacy and the importance of informing them about potential genetic risks that could impact their health and treatment decisions. Option A is incorrect because while confidentiality is important, the context of the question focuses more on the implications of genetic risks. Option B is incorrect as it does not fully capture the ethical challenge of balancing privacy with the duty to inform. Option D is incorrect because it does not address the central issue of genetic risk communication.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 90330,
+        "question_id": 379,
+        "question": "Which healthcare ethics principle is most challenged by women perceiving smoking as a harmless pleasure due to limited access to other sources of enjoyment?",
+        "options": {
+            "A": "Beneficence",
+            "B": "Justice",
+            "C": "Autonomy",
+            "D": "Non-maleficence"
+        },
+        "correct_answer": "D",
+        "explanation": "The principle of non-maleficence, which emphasizes 'do no harm,' is most challenged here. The participants perceive smoking as a harmless pleasure, yet smoking poses well-documented health risks, conflicting with the duty to avoid harm. Beneficence (A) involves promoting well-being, but the question focuses on harm rather than benefit. Justice (B) relates to fairness and resource distribution, which is tangential to the issue of smoking as a personal choice. Autonomy (C) concerns respecting patients' rights to make their own decisions, but the ethical challenge here is primarily the potential harm from smoking.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": true,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 8769,
+        "question_id": 1731,
+        "question": "Why are physicians more hesitant to withdraw pacemaker treatment than ventilators or dialysis, considering pacemakers' perceived impact on patient identity and autonomy?",
+        "options": {
+            "A": "Pacemakers are less invasive and thus considered less ethically significant.",
+            "B": "Pacemakers are perceived as integral to the patient's identity and autonomy.",
+            "C": "Pacemaker withdrawal is often seen as equivalent to active euthanasia.",
+            "D": "Pacemakers are a newer technology, and ethical guidelines are still being developed."
+        },
+        "correct_answer": "B",
+        "explanation": "Physicians may be more reluctant to withdraw pacemaker treatment because these devices are perceived as integral to the patient's identity and autonomy, making ethical considerations more complex. Option A is incorrect because the level of invasiveness does not directly correlate with ethical significance. Option C is incorrect as withdrawal of treatment is typically not equated with active euthanasia. Option D is incorrect because ethical guidelines exist for pacemakers, similar to other life-sustaining technologies.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 33531,
+        "question_id": 792,
+        "question": "Which ethical principle is most relevant for an orthopedic surgeon's obligation to operate on HIV-infected patients in emergencies?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Beneficence",
+            "C": "Non-maleficence",
+            "D": "Justice"
+        },
+        "correct_answer": "B",
+        "explanation": "Beneficence is the ethical principle that refers to acting in the best interest of the patient and promoting their well-being. In emergency situations, the principle of beneficence would guide the surgeon to provide necessary care to save the patient's life or prevent significant harm, regardless of the patient's HIV status. Autonomy (A) refers to respecting the patient's right to make their own decisions, which is not directly relevant to the surgeon's obligation to operate. Non-maleficence (C) refers to the obligation to not inflict harm, which is important but not the primary focus in the context of obligation to perform surgery. Justice (D) relates to fairness and equality, which is less directly applicable in determining the obligation to operate in emergencies.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 10539,
+        "question_id": 705,
+        "question": "Which ethical principle is most directly involved in schools supporting pupils with medical conditions, as per the Department for Education guidelines?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Beneficence",
+            "C": "Non-maleficence",
+            "D": "Justice"
+        },
+        "correct_answer": "B",
+        "explanation": "Beneficence involves actions that promote the well-being of others. In the context of supporting pupils with medical conditions, the principle of beneficence is engaged as schools have a duty to create an environment that supports the health and well-being of these students. While autonomy is important, it is less directly involved in this context as the focus is on the school's role in providing support. Non-maleficence, which is avoiding harm, is also relevant but not as direct as beneficence in actively promoting well-being. Justice relates to fairness and equality, which is important but not as specifically targeted to the supportive actions required for benefiting pupils' health.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 54416,
+        "question_id": 98,
+        "question": "How does the use of digital technologies at home affect patient autonomy in healthcare ethics?",
+        "options": {
+            "A": "It enhances patient autonomy by providing more information and resources for self-care.",
+            "B": "It diminishes patient autonomy by increasing reliance on healthcare professionals for digital navigation.",
+            "C": "It has no significant impact on patient autonomy as digital technologies are separate from healthcare decisions.",
+            "D": "It complicates patient autonomy by introducing ethical dilemmas related to privacy and consent."
+        },
+        "correct_answer": "D",
+        "explanation": "The domestication of digital technologies in homes can complicate patient autonomy by introducing ethical dilemmas related to privacy and consent. These technologies can provide patients with more information and resources for self-care, enhancing autonomy (Option A), but they also pose challenges in terms of privacy, data security, and the need for informed consent. Option B is incorrect because it does not necessarily increase reliance on professionals; instead, it may empower patients. Option C is incorrect because digital technologies directly impact healthcare decisions and autonomy. Thus, understanding how these technologies affect privacy and consent is crucial for maintaining patient autonomy.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": true,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 62104,
+        "question_id": 949,
+        "question": "Which ethical principle is most challenged by the psychological impact of knowing one's genetic status for Huntington's Disease?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Beneficence",
+            "C": "Non-maleficence",
+            "D": "Justice"
+        },
+        "correct_answer": "C",
+        "explanation": "The principle of non-maleficence, which means 'do no harm,' is most challenged in this scenario because knowing one's genetic status can lead to severe psychological harm, including anxiety and suicidal ideation. While autonomy (A) is involved in making the decision to know or not know, the potential harm of knowing one's status directly relates to non-maleficence. Beneficence (B) is about promoting well-being, and justice (D) concerns fairness and discrimination, but the immediate issue in this context is the risk of harm from psychological distress.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": true,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 31211,
+        "question_id": 725,
+        "question": "Which ethical principle is most challenged when nurses refuse to care for Ebola patients due to contagion risk?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Beneficence",
+            "C": "Non-maleficence",
+            "D": "Justice"
+        },
+        "correct_answer": "B",
+        "explanation": "Beneficence refers to the ethical principle of acting in the best interest of the patient and contributing to their welfare. When nurses refuse to care for patients with contagious diseases, the principle of beneficence is most directly challenged because it involves a conflict between the duty to care for and benefit the patient and the nurse's personal safety and well-being. Autonomy (A) primarily concerns respecting patients' rights to make their own decisions. Non-maleficence (C) involves avoiding harm, which could be argued but is less direct in this scenario. Justice (D) is about fairness and equity in care, which is related but secondary to the direct duty to care.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 87415,
+        "question_id": 2442,
+        "question": "In V.'s case, where she leaves the hospital against medical advice to smoke despite severe health issues, which ethical principle is most compromised?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Beneficence",
+            "C": "Non-maleficence",
+            "D": "Justice"
+        },
+        "correct_answer": "A",
+        "explanation": "The ethical principle most at risk in V.'s decision to leave the hospital against medical advice is autonomy. Autonomy refers to the patient's right to make their own decisions about their healthcare, even if those decisions might not be in their best medical interest. In this scenario, V. exercises her autonomy by choosing to leave the hospital to smoke, despite the potential harm it could cause to her health. Beneficence, non-maleficence, and justice are not directly compromised by her decision; rather, they relate more to the healthcare provider's responsibilities and the equitable distribution of resources, which are not the primary ethical issue in this specific decision context.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 43639,
+        "question_id": 2261,
+        "question": "Which ethical principle is most supported by the Universal Declaration on the Human Genome and Human Rights, focusing on equitable access to genetic advancements?",
+        "options": {
+            "A": "Justice, by ensuring equitable access to genetic advancements",
+            "B": "Autonomy, by advocating for informed consent in genetic testing",
+            "C": "Beneficence, by promoting the well-being of individuals through genetic research",
+            "D": "Non-maleficence, by preventing harm through the regulation of genetic manipulation"
+        },
+        "correct_answer": "A",
+        "explanation": "The Universal Declaration on the Human Genome and Human Rights aims to uphold human rights by ensuring that the benefits of genetic research and advancements are accessible equitably to all individuals, which aligns with the ethical principle of justice. While autonomy, beneficence, and non-maleficence are important ethical principles, the passage specifically emphasizes the role of the declaration in evaluating the effectiveness of ensuring human rights, which is closely tied to justice.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": true
+        }
+    },
+    {
+        "id": 26115,
+        "question_id": 460,
+        "question": "In healthcare research ethics, which action best exemplifies justice by respecting participants' privacy rights?",
+        "options": {
+            "A": "Ensuring that all participants receive the same treatment regardless of their consent to share private information.",
+            "B": "Using codes instead of personal identification on data collection forms to maintain anonymity.",
+            "C": "Allowing participants to decide what information about them can be shared and ensuring it is kept confidential.",
+            "D": "Distributing the risks and benefits of the research equally among participants regardless of their willingness to share personal data."
+        },
+        "correct_answer": "C",
+        "explanation": "The principle of justice in terms of privacy involves respecting participants' rights to determine what information they wish to share and ensuring that this information is kept confidential. Option C correctly identifies that participants should decide what information can be shared and be assured of its confidentiality. Option A is incorrect because it disregards the need for consent. Option B refers to anonymity, not the broader concept of privacy under justice. Option D talks about the distribution of risks and benefits, which relates to fair treatment rather than privacy.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 69525,
+        "question_id": 1518,
+        "question": "Which ethical principle is most at risk in Jenny Rodriguez Gomez's warning about informed consent in the Guanacaste clinical trial?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Nonmaleficence",
+            "C": "Beneficence",
+            "D": "Justice"
+        },
+        "correct_answer": "A",
+        "explanation": "The principle of autonomy is at risk because Jenny Rodriguez Gomez emphasizes the importance of informed consent and urges women to fully understand the study before participating. Her actions highlight the need for participants to make voluntary and informed decisions regarding their involvement in the clinical trial. Nonmaleficence (B) and beneficence (C) are concerned with preventing harm and promoting good, which are not the primary focus of her warning. Justice (D) relates to fair distribution of resources and benefits, which is a concern in the passage but not the primary ethical issue Jenny addresses.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 55898,
+        "question_id": 541,
+        "question": "In the Baby Peter case, which ethical principle is most compromised when healthcare professionals don't report suspected child maltreatment?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Beneficence",
+            "C": "Non-maleficence",
+            "D": "Justice"
+        },
+        "correct_answer": "C",
+        "explanation": "Non-maleficence, the principle of 'do no harm,' is most at risk when healthcare professionals fail to report suspected child maltreatment. This principle obligates healthcare providers to prevent harm to patients, in this case, children who may be suffering abuse or neglect. Autonomy (A) is about respecting a patient's right to make decisions, which is not directly applicable here. Beneficence (B) involves promoting the well-being of others, but the failure to prevent harm is more directly related to non-maleficence. Justice (D) pertains to fairness and equality in treatment, which is less relevant to the immediate prevention of harm in abuse cases.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": true,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 82078,
+        "question_id": 278,
+        "question": "Which ethical principle is most critical for using brain-computer interfaces in patients with disorders of consciousness?",
+        "options": {
+            "A": "Autonomy, as patients should have the right to make informed decisions about their own care.",
+            "B": "Beneficence, ensuring that the use of BCIs is in the best interest of the patient.",
+            "C": "Justice, ensuring fair access to BCIs for all patients regardless of socioeconomic status.",
+            "D": "Non-maleficence, avoiding harm from the use of BCIs in vulnerable patient populations."
+        },
+        "correct_answer": "B",
+        "explanation": "Beneficence is the correct answer because it focuses on ensuring that the use of BCIs is in the best interest of the patient, which is crucial in scenarios involving disorders of consciousness where patients cannot express their own wishes. While autonomy (A) is important, it is less applicable here since patients with disorders of consciousness cannot make informed decisions. Justice (C) is a broader concern about equitable access but does not directly address the specific ethical challenges of BCI use. Non-maleficence (D) is important but secondary to the primary goal of using BCIs to benefit the patient.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 28752,
+        "question_id": 1064,
+        "question": "Which ethical principle is most relevant when patients choose traditional remedies like Curcuma zeodoria?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Justice",
+            "C": "Non-maleficence",
+            "D": "Beneficence"
+        },
+        "correct_answer": "A",
+        "explanation": "The principle of autonomy is most applicable as it involves respecting the patient's right to make informed decisions about their own healthcare, including the use of traditional remedies like Curcuma zeodoria. Justice relates more to fairness and equality in healthcare distribution, non-maleficence to avoiding harm, and beneficence to acting in the patient's best interest. While these principles are also important, autonomy directly addresses the patient's choice regarding traditional remedy use.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 35187,
+        "question_id": 851,
+        "question": "In healthcare ethics, what is a primary ethical concern of medical tourism related to health disparities in the destination country?",
+        "options": {
+            "A": "The potential for cross-cultural misunderstandings between patients and healthcare providers.",
+            "B": "The economic impact on local healthcare systems in the destination country.",
+            "C": "The possibility of patients receiving lower-quality care than they would in their home country.",
+            "D": "The risk of exacerbating health disparities in the destination country."
+        },
+        "correct_answer": "D",
+        "explanation": "The primary ethical concern associated with medical tourism is the risk of exacerbating health disparities in the destination country (Option D). Medical tourism can lead to a situation where resources are diverted from the local population to cater to foreign patients, potentially worsening access and quality of healthcare for local residents. While cross-cultural misunderstandings (Option A) and economic impacts (Option B) are relevant concerns, they are not as ethically significant as the potential for increasing disparities. Option C focuses on the quality of care received by the tourist, which is more of a practical concern rather than an ethical one related to justice and equity in healthcare access.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": true
+        }
+    },
+    {
+        "id": 38223,
+        "question_id": 2193,
+        "question": "Which ethical principle is primarily addressed by using standardized communication tools to prevent harm in healthcare teams?",
+        "options": {
+            "A": "Beneficence",
+            "B": "Autonomy",
+            "C": "Justice",
+            "D": "Non-maleficence"
+        },
+        "correct_answer": "D",
+        "explanation": "Standardized communication tools in healthcare teams are primarily aimed at preventing harm, thereby addressing the ethical principle of non-maleficence. These tools help ensure that information is accurately and consistently conveyed, reducing the risk of errors that could harm patients. Beneficence focuses on doing good, which is an indirect benefit of effective communication but not the primary goal. Autonomy involves respecting patients' rights to make their own decisions, which is less directly related to team communication. Justice pertains to fairness and equality in healthcare delivery, which is also not the main focus of communication tools.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": true,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 46536,
+        "question_id": 1595,
+        "question": "In addressing stalking victims, which ethical principle should primarily guide healthcare providers in ensuring patient safety?",
+        "options": {
+            "A": "Autonomy, by respecting the patient's decision to report or not report the stalking incident.",
+            "B": "Non-maleficence, by ensuring that the patient is not harmed by the stalking behavior.",
+            "C": "Justice, by ensuring that all stalking cases are treated equally irrespective of the victim's gender.",
+            "D": "Confidentiality, by keeping all information about the stalking case private from law enforcement."
+        },
+        "correct_answer": "B",
+        "explanation": "Non-maleficence, the principle of doing no harm, is crucial in supporting a patient who has been a victim of stalking. Healthcare providers must ensure that the patient is protected from further harm, both psychologically and physically. While autonomy is important, the immediate focus in cases of stalking should be on preventing harm. Justice and confidentiality are relevant but secondary in prioritizing immediate patient safety and well-being.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": true,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 37743,
+        "question_id": 974,
+        "question": "What ethical principle is addressed by CHAI's Vision Document consultation process inviting public comments?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Justice",
+            "C": "Beneficence",
+            "D": "Non-maleficence"
+        },
+        "correct_answer": "B",
+        "explanation": "The ethical principle of 'Justice' is addressed by inviting public comments and consultation, aligning with distributive justice, which emphasizes fair distribution of resources and opportunities, including public participation in healthcare decision-making. 'Autonomy' respects individual patient choices, 'Beneficence' involves acting in the best interest of patients, and 'Non-maleficence' focuses on avoiding harm. The consultation process primarily reflects a commitment to justice by ensuring diverse voices are heard and considered.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": true
+        }
+    },
+    {
+        "id": 31274,
+        "question_id": 2071,
+        "question": "Which ethical principle is central when considering abortion for embryonic life with severe genetic abnormalities, as discussed in the context of beneficent abortion?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Non-maleficence",
+            "C": "Beneficence",
+            "D": "Justice"
+        },
+        "correct_answer": "C",
+        "explanation": "The passage discusses 'beneficent abortion,' focusing on whether abortion serves the best interests of the embryonic life, especially when facing chronic suffering or severely reduced quality of life. This aligns with beneficence, which involves promoting well-being. Autonomy (A) is about respecting decision-making, non-maleficence (B) is about avoiding harm, and justice (D) is about fairness, none of which are the primary focus here.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 80574,
+        "question_id": 606,
+        "question": "Which ethical principle is most challenged by withholding resuscitative measures in pediatric DNR orders during surgery?",
+        "options": {
+            "A": "Autonomy, as it concerns respecting the decision-making rights of minors.",
+            "B": "Justice, as it involves ensuring fair distribution of medical resources.",
+            "C": "Nonmaleficence, as it involves doing no harm by avoiding unnecessary interventions.",
+            "D": "Beneficence, as it involves acting in the best interest of the patient."
+        },
+        "correct_answer": "C",
+        "explanation": "The ethical principle of nonmaleficence is most challenged in this scenario because it requires healthcare providers to avoid causing harm. In the context of pediatric DNR orders, some practitioners view withholding resuscitative measures as a breach of this principle because it prevents intervention in potentially life-threatening situations. However, others argue that intervening with resuscitation could prolong suffering and a poor quality of life, which also conflicts with nonmaleficence. The correct answer is C, as the ethical tension primarily revolves around the interpretation of harm and the obligation to avoid it. Options A, B, and D, while relevant to medical ethics, do not directly address the specific dilemma of balancing intervention against the potential for harm in this context.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": true,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 13228,
+        "question_id": 364,
+        "question": "Which ethical principle best addresses the balance between benefits to the newborn and harm to the mother in antiretroviral treatment for pregnant HIV-positive women?",
+        "options": {
+            "A": "Beneficence, as it promotes the well-being of the newborn by reducing the risk of HIV transmission.",
+            "B": "Non-maleficence, as it emphasizes the importance of not causing harm to the mother through the development of drug-resistant HIV strains.",
+            "C": "Justice, as it focuses on the fair distribution of healthcare resources to ensure both mother and child receive adequate treatment.",
+            "D": "Autonomy, as it respects the mother's right to choose her treatment based on her values and circumstances."
+        },
+        "correct_answer": "B",
+        "explanation": "Non-maleficence is the ethical principle that emphasizes the importance of not causing harm. In this scenario, while the use of a single drug like nevirapine may reduce the risk of HIV transmission to the newborn, it increases the risk of developing drug-resistant strains in the mother. Thus, the principle of non-maleficence is most relevant as it addresses the potential harm to the mother. Beneficence focuses on the well-being of others, which in this case would prioritize the newborn without fully considering the mother's health. Justice is about fair distribution and access, which is not the primary issue in this specific question. Autonomy is important but does not directly address the ethical balance of benefits and harms in this context.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": true,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 12529,
+        "question_id": 1242,
+        "question": "In a scenario where a physician must choose between patient autonomy and safety, which ethical principle should guide the decision?",
+        "options": {
+            "A": "Beneficence, as it emphasizes doing good for the patient and ensuring their safety.",
+            "B": "Nonmaleficence, since it involves avoiding harm to the patient at all costs.",
+            "C": "Autonomy, as it prioritizes the patient's right to make their own healthcare decisions.",
+            "D": "Justice, because it focuses on the fair distribution of healthcare resources."
+        },
+        "correct_answer": "C",
+        "explanation": "The correct answer is C: Autonomy, as it prioritizes the patient's right to make their own healthcare decisions. In bioethics, respecting patient autonomy is fundamental, especially when the patient can make informed decisions. Beneficence and nonmaleficence focus on outcomes and harm avoidance, while justice relates to fairness and resource allocation, which is not the primary concern here.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 1495,
+        "question_id": 634,
+        "question": "In the 'Assist' Project, where John learns a participant is having unprotected sex without disclosing her HIV+ status, which ethical principle conflicts with confidentiality?",
+        "options": {
+            "A": "Beneficence",
+            "B": "Autonomy",
+            "C": "Non-maleficence",
+            "D": "Justice"
+        },
+        "correct_answer": "C",
+        "explanation": "The primary ethical conflict is between maintaining confidentiality and non-maleficence, which obligates John to prevent harm. Keeping the participant's HIV status confidential risks harm to the boyfriend, who is unaware of the condition. Beneficence and justice are less directly relevant, while autonomy is involved in confidentiality, the central issue is potential harm to another person.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": true,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 32868,
+        "question_id": 860,
+        "question": "In healthcare ethics, should relatives be involved when the deceased's wishes are known?",
+        "options": {
+            "A": "Relatives should have the power to override the deceased's wishes if they disagree.",
+            "B": "Relatives should only be consulted if the deceased's wishes are unclear or unknown.",
+            "C": "Relatives should always be consulted and their wishes respected, regardless of the deceased's known wishes.",
+            "D": "Relatives should have no say, as the deceased's wishes should be followed without exception."
+        },
+        "correct_answer": "B",
+        "explanation": "Option B is correct because ethical principles often prioritize respecting the autonomy and known wishes of the deceased. Relatives are typically consulted only when the wishes are unclear or unknown to help guide decision-making. Option A is incorrect as it undermines the principle of autonomy by allowing relatives to override explicit wishes. Option C is incorrect because it does not prioritize the deceased's autonomy. Option D is incorrect because, while respecting the deceased's wishes is important, there may be legitimate reasons to involve relatives in discussions, particularly when wishes are not clear.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 41870,
+        "question_id": 971,
+        "question": "In managed care, which ethical principle is most challenged by balancing cost containment with patient care?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Justice",
+            "C": "Beneficence",
+            "D": "Non-maleficence"
+        },
+        "correct_answer": "C",
+        "explanation": "Beneficence, the principle of acting in the best interest of the patient, is often challenged in managed care settings due to the emphasis on cost containment. Physicians may face pressure to limit tests and treatments to save costs, which can conflict with the duty to provide the best possible care. Autonomy (option A) refers to respecting patient choices, which might be affected but is not directly related to cost issues. Justice (option B) involves fairness and equity, which is more about resource distribution rather than individual care. Non-maleficence (option D) means 'do no harm,' but cost containment primarily challenges the ability to do good (beneficence) rather than avoiding harm.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 29035,
+        "question_id": 1081,
+        "question": "Which ethical principle should guide a physician in treating foot conditions like corns, calluses, and warts?",
+        "options": {
+            "A": "Beneficence, as the treatment should benefit the patient and alleviate discomfort.",
+            "B": "Non-maleficence, ensuring that treatment does not cause harm to the patient.",
+            "C": "Autonomy, respecting the patient's decision to undergo or refuse treatment.",
+            "D": "Justice, ensuring fair distribution of healthcare resources."
+        },
+        "correct_answer": "A",
+        "explanation": "The principle of beneficence is focused on actions that promote the well-being of patients and relieve their suffering. In the case of treating corns, calluses, and warts, the primary goal is to alleviate the patient's discomfort and improve their quality of life, aligning with the principle of beneficence. While non-maleficence, autonomy, and justice are important ethical principles, the primary consideration in this scenario is the direct benefit to the patient, making beneficence the most relevant guiding principle.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 76678,
+        "question_id": 871,
+        "question": "Which ethical principle is emphasized in effective healthcare leadership focusing on fairness, transparency, and alignment with organizational values?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Justice",
+            "C": "Beneficence",
+            "D": "Non-maleficence"
+        },
+        "correct_answer": "B",
+        "explanation": "The passage highlights the importance of leaders being consistent, fair, and just in their decision-making process to inspire trust and performance throughout the organization. While beneficence and non-maleficence are important in healthcare, the passage specifically emphasizes justice in leadership by discussing the need for fair and transparent decision-making that aligns with the organization's vision and mission. Autonomy is not a focus in this passage as it pertains more to patient decision-making rather than leadership ethics.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": true
+        }
+    },
+    {
+        "id": 54791,
+        "question_id": 276,
+        "question": "Which ethical principle is most directly engaged by the Tobacco Act's restriction on public smoking to protect health?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Justice",
+            "C": "Non-maleficence",
+            "D": "Beneficence"
+        },
+        "correct_answer": "D",
+        "explanation": "The Tobacco Act and similar legislation aim to protect public health by restricting smoking, which aligns with the principle of beneficence—acting in the best interest of the public to promote well-being. While autonomy (A) is relevant as such laws limit individual freedom to choose where to smoke, the primary focus is on beneficence. Justice (B) concerns fairness and equality, which is less directly relevant here. Non-maleficence (C) refers to avoiding harm, which is related but not as directly applicable as beneficence, which actively seeks to improve health outcomes.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 32032,
+        "question_id": 1494,
+        "question": "Which healthcare ethics principle is most challenged by genetic testing and modification advancements?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Justice",
+            "C": "Non-maleficence",
+            "D": "Beneficence"
+        },
+        "correct_answer": "A",
+        "explanation": "Genetic testing and modification challenge autonomy by raising issues of informed consent, privacy, and decision-making for individuals unable to express their wishes, such as unborn children. Autonomy is most directly implicated in genetic interventions where personal choice and consent are critical.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 37621,
+        "question_id": 369,
+        "question": "What ethical concern arises from offering familist incentives, where families of organ donors receive priority on waiting lists?",
+        "options": {
+            "A": "The possibility of organs being allocated based on family connections rather than medical need.",
+            "B": "The potential for increased organ trafficking due to increased demand.",
+            "C": "The likelihood of organ donors experiencing regret after donation.",
+            "D": "The risk of family members feeling pressured to donate organs."
+        },
+        "correct_answer": "A",
+        "explanation": "The primary ethical concern with familist incentives is that they may result in organs being allocated based on family connections rather than medical need, which challenges the principle of impartial allocation. Option B is incorrect because the passage does not mention organ trafficking as a concern. Option C is incorrect as regret is not discussed in the context of familist incentives. Option D is incorrect because the passage focuses on the allocation of organs rather than the pressure to donate.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": true
+        }
+    },
+    {
+        "id": 37538,
+        "question_id": 904,
+        "question": "What ethical consideration is emphasized regarding monetary incentives in organ donation, given the consensus on covering funeral expenses but disapproval of direct financial connections?",
+        "options": {
+            "A": "Monetary incentives should be maximized to increase donor participation.",
+            "B": "Monetary incentives should only be considered if they do not create a direct financial connection between donor and recipient.",
+            "C": "Monetary incentives should be avoided entirely to maintain the altruistic nature of organ donation.",
+            "D": "Monetary incentives should be offered directly by recipients to ensure fairness."
+        },
+        "correct_answer": "B",
+        "explanation": "The passage indicates consensus on using monetary incentives to cover funeral expenses, as it is seen as a respectful and educational approach without negative social impact. However, there is disapproval of a direct financial connection between donor and recipient, suggesting that option B aligns with the ethical emphasis in the passage. Options A and D contradict the passage's caution against direct financial connections. Option C is incorrect because the passage does not advocate for avoiding monetary incentives altogether, only for avoiding direct ties between donor and recipient.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": true
+        }
+    },
+    {
+        "id": 56849,
+        "question_id": 2120,
+        "question": "What ethical consideration should be addressed when prescribing Plan B, given its potential abortifacient action for those who believe life begins at fertilization?",
+        "options": {
+            "A": "Ensuring patient confidentiality and privacy are maintained during and after the prescription process.",
+            "B": "Informing patients that ECPs are primarily used to terminate established pregnancies.",
+            "C": "Discussing the potential for ECPs to act as abortifacients with patients who believe life begins at fertilization.",
+            "D": "Advising patients that ECPs are 100% effective in preventing pregnancy when used correctly."
+        },
+        "correct_answer": "C",
+        "explanation": "The key ethical consideration involves discussing the potential mechanisms of action of ECPs with patients, especially those who hold beliefs that life begins at fertilization. This is crucial because, although ECPs primarily prevent ovulation and fertilization, there is a theoretical possibility they could prevent implantation of a fertilized egg, which some may consider an abortifacient action. Option A is a general ethical consideration applicable to all medical treatments, B is incorrect as ECPs do not terminate established pregnancies, and D is incorrect as ECPs are not 100% effective.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 54106,
+        "question_id": 529,
+        "question": "Which ethical principle in healthcare aligns with promoting open-source software for equitable access to medical technology?",
+        "options": {
+            "A": "Autonomy, as open-source software allows healthcare providers to make independent decisions without vendor restrictions.",
+            "B": "Beneficence, as open-source software fosters innovation and improved patient care through collaboration.",
+            "C": "Non-maleficence, as open-source software prevents harm by ensuring software reliability and safety.",
+            "D": "Justice, as open-source software ensures equitable access to medical technology for all patients."
+        },
+        "correct_answer": "D",
+        "explanation": "The principle of justice is most closely aligned with the promotion of open-source software in medical practice because it emphasizes equitable access to healthcare resources, including technology. Open-source software can reduce disparities by making medical technology more accessible to all patients, regardless of socioeconomic status. While autonomy, beneficence, and non-maleficence are important ethical principles, they are less directly related to the accessibility and equity aspects promoted by open-source software.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": true
+        }
+    },
+    {
+        "id": 60893,
+        "question_id": 234,
+        "question": "What ethical principle was compromised when the CDC allowed surgical masks instead of N95s due to shortages?",
+        "options": {
+            "A": "Beneficence",
+            "B": "Autonomy",
+            "C": "Justice",
+            "D": "Non-maleficence"
+        },
+        "correct_answer": "A",
+        "explanation": "The ethical principle of beneficence, which involves acting in the best interest of patients and ensuring their well-being, may have been compromised. By relaxing guidelines and recommending less effective surgical masks despite knowing the superior protection offered by N95 masks against airborne transmission, the safety and well-being of healthcare workers and patients could have been jeopardized. Option B, Autonomy, is incorrect as this situation did not directly involve patients making informed decisions about their care. Option C, Justice, refers to fairness and equality, which could be a factor but is not the primary issue here. Option D, Non-maleficence, focuses on 'do no harm', which overlaps with beneficence but is more about avoiding direct harm rather than actively ensuring benefit.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 50221,
+        "question_id": 1642,
+        "question": "Which ethical principle is violated when a healthcare professional illegally obtains Class A drugs from work?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Non-maleficence",
+            "C": "Justice",
+            "D": "Beneficence"
+        },
+        "correct_answer": "C",
+        "explanation": "The correct answer is 'Justice' because this principle involves fairness and legal behavior, which is violated when a healthcare professional illegally obtains drugs. 'Autonomy' pertains to respecting patients' rights to make their own decisions, 'Non-maleficence' is about avoiding harm to patients, and 'Beneficence' involves acting in the best interest of patients. None of these are directly related to the illegal acquisition of drugs, which is primarily a violation of justice and legal standards.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": true
+        }
+    },
+    {
+        "id": 73754,
+        "question_id": 1619,
+        "question": "Which ethical principle is most challenged by the state's failure to provide adequate support for Larry McAfee's independent living after his sudden-onset disability, influencing his rehabilitation choices?",
+        "options": {
+            "A": "Beneficence, as the state initially did not act in McAfee's best interest by failing to provide adequate support.",
+            "B": "Non-maleficence, as the state's actions were intended to prevent harm by assisting McAfee with his choice to end his life.",
+            "C": "Justice, focusing on the fairness of resources allocated for disability support versus assisted suicide support.",
+            "D": "Autonomy, concerning the respect for McAfee's initial decision to pursue assisted suicide."
+        },
+        "correct_answer": "A",
+        "explanation": "The principle of beneficence is about acting in the best interest of the patient, which was initially challenged as the state did not provide adequate support for McAfee's independent living, potentially influencing his desire for assisted suicide. Improving his living conditions later allowed him to find value in life, indicating that more beneficial actions could have been taken earlier. Option B is incorrect because non-maleficence is about avoiding harm, and the state's initial inaction may have contributed to a harmful situation. Option C, justice, is relevant but not the most challenged principle here. Option D focuses on autonomy, which is a significant issue, but the primary ethical challenge was in failing to provide supportive care that would have promoted McAfee's well-being.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 6317,
+        "question_id": 587,
+        "question": "What ethical principle did the faculty violate by preventing a student from enrolling in her practicum due to her refusal to disclose her manic-depressive condition, as seen in Powell v. Cooper, 622 NW2d 265 (Wis. 2001)?",
+        "options": {
+            "A": "Autonomy, by not allowing the student to make her own decisions regarding disclosure of her medical condition.",
+            "B": "Justice, by failing to provide equitable treatment to the student compared to others in similar situations.",
+            "C": "Beneficence, by not acting in the best interest of the student's health and well-being.",
+            "D": "Non-maleficence, by causing harm to the student's educational progress."
+        },
+        "correct_answer": "A",
+        "explanation": "The principle of autonomy was violated because the student's right to self-determination regarding her own health information was disregarded. The faculty required disclosure of her condition, which she chose not to disclose, thus infringing on her autonomy. Option B (Justice) is incorrect because the issue is not about equitable treatment compared to others but rather about individual rights. Option C (Beneficence) is incorrect because the focus is not on the student's health and well-being but on her educational rights. Option D (Non-maleficence) is incorrect because the primary issue is not harm but the violation of her autonomy in decision-making about her health information.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 71952,
+        "question_id": 560,
+        "question": "Which ethical principle should guide Nurse Moore's decision to notify the physician about Mrs. Lyons's whispered plea for help, despite her previous refusal of blood transfusions as a Jehovah’s Witness?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Beneficence",
+            "C": "Non-maleficence",
+            "D": "Justice"
+        },
+        "correct_answer": "A",
+        "explanation": "The principle of autonomy refers to respecting a patient's right to make their own healthcare decisions. Mrs. Lyons's whispered plea suggests a possible change in her autonomous decision regarding blood transfusion. It is crucial for the healthcare provider to respect and act on the patient's current wishes, potentially conflicting with the previous decision endorsed by her husband. Beneficence focuses on the action that benefits the patient, non-maleficence on avoiding harm, and justice on fairness in treatment; however, these principles are secondary to ensuring that the patient's autonomy is respected in this context.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 86090,
+        "question_id": 1956,
+        "question": "Which ethical principle is most at risk for military physicians participating in coercive interrogations, considering dual loyalty conflicts?",
+        "options": {
+            "A": "Beneficence",
+            "B": "Autonomy",
+            "C": "Non-maleficence",
+            "D": "Justice"
+        },
+        "correct_answer": "C",
+        "explanation": "Non-maleficence, or 'do no harm,' is a fundamental ethical principle in medicine. Participation in coercive interrogations risks violating this principle by potentially causing harm to the detainees. While beneficence (doing good) and justice (fairness) are also important, the primary concern here is the potential direct harm to individuals, which is why non-maleficence is the most relevant principle. Autonomy is less applicable as it pertains more to respecting patients' decisions, which is not the central issue in this scenario.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": true,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 80599,
+        "question_id": 869,
+        "question": "What ethical issue does Glen raise by refusing Karl's mandate for expensive anesthetics at a diverse urban facility?",
+        "options": {
+            "A": "The obligation to follow hospital administration policies.",
+            "B": "The fair distribution of medical resources across different patient populations.",
+            "C": "The need for rapid patient turnover in surgical facilities.",
+            "D": "The adherence to current standards of anesthesia practice."
+        },
+        "correct_answer": "B",
+        "explanation": "Glen's primary ethical concern is the fair distribution of medical resources, as he finds it unjust to provide expensive anesthesia at the urban facility while similar resources are unavailable at suburban facilities due to cost constraints. This issue reflects the ethical principle of justice, focusing on equitable healthcare resource distribution. Option A is incorrect because Glen's concern is about resource allocation, not policy adherence. Option C is incorrect because it emphasizes operational efficiency rather than ethical fairness. Option D is incorrect because Glen does not dispute the standards of practice but rather the equitable application of resources.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": true
+        }
+    },
+    {
+        "id": 44305,
+        "question_id": 1846,
+        "question": "Which ethical principle should guide healthcare policy to address non-emergency use of A&E by children?",
+        "options": {
+            "A": "Justice, to ensure fair distribution of healthcare resources.",
+            "B": "Autonomy, to respect the parents' right to choose A&E services for their child.",
+            "C": "Beneficence, to ensure the well-being of children by providing immediate care in A&E.",
+            "D": "Non-maleficence, to avoid harm by discouraging unnecessary use of A&E services."
+        },
+        "correct_answer": "A",
+        "explanation": "Justice is the ethical principle that focuses on the fair distribution of healthcare resources. In this context, the high usage of A&E by children for non-emergency cases is a misuse of resources intended for accidents and emergencies, potentially limiting access for those who need urgent care. While autonomy (B) and beneficence (C) are important, they do not address the resource allocation issue. Non-maleficence (D) concerns avoiding harm, but the primary concern here is resource distribution and accessibility.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": true
+        }
+    },
+    {
+        "id": 13550,
+        "question_id": 1166,
+        "question": "Which ethical principle is most relevant for a clinical investigator with extensive medical and policy experience working with vulnerable populations like children and mentally retarded persons?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Justice",
+            "C": "Beneficence",
+            "D": "Non-maleficence"
+        },
+        "correct_answer": "C",
+        "explanation": "The ethical principle of beneficence is most relevant in this context as it emphasizes the importance of doing good and ensuring the well-being of research subjects, particularly those who are vulnerable. While autonomy is crucial in respecting individuals' decision-making rights, it may be limited in vulnerable populations who cannot fully consent. Justice pertains to fairness in distribution, and non-maleficence focuses on 'do no harm,' both of which are important but not as directly applicable to the role of ensuring positive outcomes and welfare as beneficence is in this case.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 88045,
+        "question_id": 409,
+        "question": "Which ethical principle is most at risk if a therapist bills six units over 60 minutes, providing only 10 minutes of treatment per patient?",
+        "options": {
+            "A": "Autonomy, as patients may not be fully informed about the true duration of their treatment sessions.",
+            "B": "Beneficence, as the therapist is not providing sufficient treatment time to potentially benefit the patients.",
+            "C": "Non-maleficence, as short treatments might actively harm the patients.",
+            "D": "Justice, as this practice could result in unfair billing practices and resource allocation."
+        },
+        "correct_answer": "B",
+        "explanation": "The ethical principle most at risk is beneficence (B), which is the obligation to help others and promote their well-being. By providing only 10 minutes of treatment when the expectation is 15 minutes, the therapist may not be providing adequate care to benefit the patients. Option A (Autonomy) is less relevant because the issue relates to the adequacy of care rather than informed consent. Option C (Non-maleficence) is incorrect as the situation does not necessarily imply direct harm, but rather a lack of benefit. Option D (Justice) is plausible but incorrect in this context, as the primary concern is the adequacy and effectiveness of treatment rather than fairness in billing practices.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 25907,
+        "question_id": 2448,
+        "question": "Which ethical principle was most compromised when Joanna's concerns about Mrs. Kelly's abdominal pain were dismissed despite her intuition and experience suggesting serious illness?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Beneficence",
+            "C": "Non-maleficence",
+            "D": "Justice"
+        },
+        "correct_answer": "B",
+        "explanation": "The principle of beneficence, which involves acting in the best interest of the patient, was compromised. Joanna expressed concerns about Mrs. Kelly's condition, but her observations were dismissed by both the medical resident and the supervisor. Joanna's intuition and experience suggested something was seriously wrong, yet the healthcare team failed to take proactive measures to ensure Mrs. Kelly's well-being. Autonomy was not at issue since the patient was unable to advocate for herself. Non-maleficence was indirectly violated as the neglect led to harm, but the core issue was the team's failure to act in Mrs. Kelly's best interest. Justice was not directly relevant since the case was more about individual care than fairness in treatment distribution.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 49352,
+        "question_id": 2003,
+        "question": "Which scenario in healthcare ethics and legal rights breaches the Law of Consent and Assault?",
+        "options": {
+            "A": "A doctor performs an emergency surgery on a patient who is unconscious and unable to consent.",
+            "B": "A nurse administers a routine vaccine to a patient who provided written consent but later revokes it.",
+            "C": "A healthcare professional accesses a patient's health records without consent for research purposes.",
+            "D": "A medical student observes a surgery without the patient's explicit consent but with the consent of the supervising surgeon."
+        },
+        "correct_answer": "D",
+        "explanation": "The Law of Consent and Assault requires explicit consent from the patient for any medical procedure or observation. In this scenario, the patient did not give explicit consent for a medical student to observe the surgery, which constitutes a breach. Option A is incorrect because emergency situations often allow for treatment without consent to preserve life. Option B is incorrect because the initial consent was provided, and the revocation of consent would need to be communicated before the procedure. Option C is incorrect because it relates to a breach of confidentiality and data protection, not consent and assault.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 7945,
+        "question_id": 2207,
+        "question": "Which ethical principle is most challenged by pandemic restrictions that disproportionately affected socioeconomically disadvantaged and special needs children in Germany?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Beneficence",
+            "C": "Justice",
+            "D": "Non-maleficence"
+        },
+        "correct_answer": "C",
+        "explanation": "The ethical principle of justice is most challenged by the restrictions imposed on children and young people during the pandemic. Justice involves fairness and equitable distribution of resources and burdens. The passage highlights how socioeconomically disadvantaged children, as well as those with special needs, were disproportionately affected by the restrictions, indicating an inequitable distribution of the pandemic's burdens. Autonomy (A) is less relevant here as the focus is on fairness rather than individual decision-making. Beneficence (B) and Non-maleficence (D) are about doing good and avoiding harm, respectively, but the central issue in the passage is the unequal impact on vulnerable groups, which is a matter of justice.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": true
+        }
+    },
+    {
+        "id": 1339,
+        "question_id": 2293,
+        "question": "Which ethical principle is most challenged by direct-to-consumer genetic tests?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Justice",
+            "C": "Non-maleficence",
+            "D": "Beneficence"
+        },
+        "correct_answer": "A",
+        "explanation": "The principle of autonomy is most challenged by direct-to-consumer genetic tests because these tests allow individuals to make personal health decisions without the guidance of a healthcare professional. This raises concerns about the individual's ability to fully understand and interpret the results, which can impact their autonomous decision-making. Option B, justice, relates to fair access to healthcare, which is not directly challenged by these tests. Option C, non-maleficence, is about avoiding harm, which is a concern but not the primary ethical challenge here. Option D, beneficence, involves acting in the patient's best interest, which is indirectly related but not the main issue with direct-to-consumer tests.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 4753,
+        "question_id": 470,
+        "question": "Which ethical principle is most critical for ensuring informed consent in clinical research protocols?",
+        "options": {
+            "A": "Beneficence, to ensure the study benefits outweigh the risks to participants",
+            "B": "Justice, to ensure equitable selection of study participants",
+            "C": "Autonomy, to ensure informed consent is obtained from all participants",
+            "D": "Fidelity, to ensure honesty and truthfulness in the research process"
+        },
+        "correct_answer": "C",
+        "explanation": "Autonomy is a fundamental ethical principle in clinical research that requires researchers to obtain informed consent from participants, ensuring they are fully informed about the research and voluntarily agree to participate. While beneficence, justice, and fidelity are also important ethical principles, autonomy directly addresses the protection of individual rights and informed decision-making in research settings. Beneficence focuses on maximizing benefits and minimizing harms, justice ensures fair distribution of research benefits and burdens, and fidelity pertains to maintaining trust and integrity in research.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 5267,
+        "question_id": 413,
+        "question": "Which ethical principle was emphasized by pharmacovigilance during the COVID-19 pandemic?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Justice",
+            "C": "Beneficence",
+            "D": "Non-maleficence"
+        },
+        "correct_answer": "D",
+        "explanation": "Pharmacovigilance during the COVID-19 pandemic focused on ensuring drug and vaccine safety, aligning with the ethical principle of non-maleficence, or 'do no harm'. This principle was emphasized through monitoring and communication efforts to prevent harm.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": true,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 24229,
+        "question_id": 1675,
+        "question": "In conflict zones like those described by Dr. Lindsay Rogers in 'Guerilla Surgeon,' which ethical principle is prioritized in medical care?",
+        "options": {
+            "A": "Autonomy - ensuring patients' right to make their own healthcare decisions",
+            "B": "Non-maleficence - avoiding harm to patients at all costs",
+            "C": "Justice - ensuring fair distribution of medical resources",
+            "D": "Beneficence - prioritizing actions that benefit the patient and improve their health"
+        },
+        "correct_answer": "C",
+        "explanation": "In a conflict zone, a 'Guerilla Surgeon' like Dr. Lindsay Rogers may need to prioritize the ethical principle of justice, which involves the fair distribution of scarce medical resources among all patients in need. While autonomy, non-maleficence, and beneficence are important ethical principles, the unique challenges of a conflict zone may require a focus on justice to ensure that resources are allocated fairly and equitably. Autonomy might be limited due to the urgent nature of care, and non-maleficence and beneficence are also important but must be balanced with the reality of limited resources.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": true
+        }
+    },
+    {
+        "id": 38876,
+        "question_id": 1194,
+        "question": "Which ethical principle should primarily guide a physician's response to a patient's abnormal condition?",
+        "options": {
+            "A": "Autonomy, ensuring the patient makes their own informed decisions.",
+            "B": "Beneficence, focusing on what benefits the patient the most.",
+            "C": "Justice, ensuring fair distribution of resources.",
+            "D": "Non-maleficence, aiming to do no harm."
+        },
+        "correct_answer": "B",
+        "explanation": "Beneficence involves acting in the best interest of the patient, which is crucial when determining how to address an abnormal condition. Autonomy is important, but the question specifically asks for the primary guiding principle in response to an abnormal condition. Justice and non-maleficence are also important, but beneficence more directly addresses the question of what to do about the abnormality.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 42612,
+        "question_id": 2407,
+        "question": "Which ethical principle is most challenged by direct-to-consumer genetic testing, considering its impact on family relations and genetic discrimination?",
+        "options": {
+            "A": "Beneficence",
+            "B": "Autonomy",
+            "C": "Non-maleficence",
+            "D": "Justice"
+        },
+        "correct_answer": "B",
+        "explanation": "Direct-to-consumer genetic testing primarily challenges the principle of autonomy. It allows individuals to access genetic information without mediation by healthcare professionals, which raises concerns about informed decision-making and the potential impact on family relations, as this information may affect not just the individual but also relatives. Genetic discrimination and psychosocial impacts further complicate these issues, making autonomy a critical ethical consideration. While beneficence, non-maleficence, and justice are relevant, autonomy is the most directly challenged in this context.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 29124,
+        "question_id": 1261,
+        "question": "In TCM, which ethical principle is most challenged when a doctor recommends treatments without evidence to their patient who relies on Western medicine?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Beneficence",
+            "C": "Non-maleficence",
+            "D": "Justice"
+        },
+        "correct_answer": "B",
+        "explanation": "Beneficence refers to the ethical principle of acting in the best interest of the patient. Recommending treatments without sufficient evidence of efficacy may not align with acting in the patient's best interest if it potentially diverts them from more effective treatments. Autonomy (A) relates to respecting the patient's choices, which may be compromised if they are not fully informed. Non-maleficence (C) is about avoiding harm, but the question specifically addresses the challenge of providing beneficial treatments. Justice (D) pertains to fairness in treatment distribution, which is not the focus here.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": true,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 75258,
+        "question_id": 542,
+        "question": "Which ethical principle should healthcare boards prioritize when balancing financial stability with mission-focused asset use, given their evolving responsibilities?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Justice",
+            "C": "Beneficence",
+            "D": "Non-maleficence"
+        },
+        "correct_answer": "B",
+        "explanation": "Justice is the ethical principle concerned with fairness and the equitable distribution of resources. Healthcare boards must balance financial stability with their mission to serve the community equitably. While autonomy, beneficence, and non-maleficence are important principles, they do not directly address the allocation of resources and the potential conflicts between financial goals and ethical commitments to the community. Justice ensures that the distribution of resources aligns with ethical obligations to serve all community members fairly.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": true
+        }
+    },
+    {
+        "id": 41995,
+        "question_id": 1560,
+        "question": "What is a critical factor for psychotherapists when deciding whether to disclose confidential information about high-risk behaviors of children and adolescents to parents?",
+        "options": {
+            "A": "The potential for increased parental monitoring to protect the child",
+            "B": "The possibility of the child feeling embarrassed if information is disclosed",
+            "C": "The likelihood that parents will disagree with the therapeutic approach",
+            "D": "The potential for the child to receive a higher grade in school"
+        },
+        "correct_answer": "A",
+        "explanation": "The correct answer is A because psychotherapists must weigh the potential benefits of disclosure, such as increased parental monitoring that could protect the child. Options B, C, and D do not directly relate to the ethical consideration of balancing confidentiality with the child's best interests. Option B might be a concern but is not a primary ethical consideration. Option C refers to parental disagreement with therapy, which is not the focus of confidentiality ethics. Option D is irrelevant to the ethical discussion presented.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 27208,
+        "question_id": 26,
+        "question": "Which ethical principle is most relevant for traditional herbal medicine in treating Qi & Blood deficiency with deficient Heat?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Non-maleficence",
+            "C": "Justice",
+            "D": "Confidentiality"
+        },
+        "correct_answer": "B",
+        "explanation": "Non-maleficence, the ethical principle of 'do no harm,' is crucial when considering treatments like traditional herbal medicine. Physicians must ensure that such treatments do not cause harm to the patient, especially when the efficacy and safety are not well-established. Autonomy refers to respecting the patient's right to make their own decisions, but it does not directly address the safety of treatment. Justice involves fairness and equality in healthcare, which does not directly pertain to treatment safety. Confidentiality concerns the privacy of patient information, not the treatment's ethical considerations.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": true,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 28194,
+        "question_id": 2496,
+        "question": "Which ethical principle is most relevant for respecting patient choice in using traditional medicine like Liu Wei Di Huang Wan?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Beneficence",
+            "C": "Non-maleficence",
+            "D": "Justice"
+        },
+        "correct_answer": "A",
+        "explanation": "The principle of autonomy is most relevant because it involves respecting the patient's right to make informed decisions about their own healthcare, including the choice to use traditional remedies. Beneficence focuses on acting in the patient's best interest, non-maleficence is about avoiding harm, and justice concerns fairness and distribution of resources. While these principles are also important, autonomy is key when discussing treatment choices.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 79436,
+        "question_id": 2365,
+        "question": "Which ethical principle primarily guides mandatory vaccination programs in public health practice?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Justice",
+            "C": "Beneficence",
+            "D": "Non-maleficence"
+        },
+        "correct_answer": "C",
+        "explanation": "The principle of beneficence guides actions that aim to do good and prevent harm. In public health, implementing a mandatory vaccination program is often justified by beneficence, as it seeks to protect the population from infectious diseases and reduce harm. Autonomy (A) is concerned with respecting individuals' rights to make their own choices, which could argue against mandatory programs. Justice (B) pertains to fairness and equitable distribution of resources, which is relevant but not the primary principle for vaccination mandates. Non-maleficence (D) is about not causing harm, which supports the program but is secondary to the proactive good of beneficence.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 84252,
+        "question_id": 1589,
+        "question": "Which ethical principle is most important for healthcare professionals to consider when designing treatment plans for patients with obesity?",
+        "options": {
+            "A": "Justice",
+            "B": "Autonomy",
+            "C": "Beneficence",
+            "D": "Non-maleficence"
+        },
+        "correct_answer": "B",
+        "explanation": "Autonomy emphasizes the patient's right to make informed decisions about their healthcare. In obesity treatment, respecting autonomy involves involving patients in decision-making and ensuring they understand treatment risks and benefits. Justice refers to fairness in healthcare delivery, important but secondary in individual treatment planning. Beneficence involves acting in the patient's best interest, but must be balanced with autonomy. Non-maleficence means avoiding harm, important but autonomy takes precedence in patient-centered care.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 40982,
+        "question_id": 2395,
+        "question": "Which ethical principle is most directly involved in maternal-fetal surgery aimed at correcting fetal anatomical issues?",
+        "options": {
+            "A": "Autonomy, as it focuses on the rights of the pregnant woman to make decisions about her body and the fetus.",
+            "B": "Justice, since it ensures fair distribution of resources for all pregnant women needing fetal surgery.",
+            "C": "Non-maleficence, which emphasizes avoiding harm to both the pregnant woman and the fetus during medical interventions.",
+            "D": "Beneficence, as it involves acting in the best interest of the fetus by correcting or mitigating pathological anatomy."
+        },
+        "correct_answer": "D",
+        "explanation": "Beneficence is the ethical principle that involves acting in the best interests of the patient, which in the case of maternal-fetal surgery refers to interventions aimed at correcting or mitigating fetal anatomical issues to improve outcomes. While autonomy is important, the primary focus in maternal-fetal surgery is on the health benefits to the fetus. Justice is concerned with fairness in healthcare delivery but is less directly involved in individual surgical decisions. Non-maleficence is relevant but secondary to the active pursuit of beneficence in providing fetal surgery.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 36048,
+        "question_id": 1727,
+        "question": "Which ethical principle is most challenged by placebo-controlled trials in AZT* and Surfaxin*, where effective treatments exist?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Beneficence",
+            "C": "Non-maleficence",
+            "D": "Justice"
+        },
+        "correct_answer": "C",
+        "explanation": "The principle of non-maleficence, which dictates that healthcare providers should not harm patients, is most directly challenged by the use of PCTs in cases like AZT* and Surfaxin*. The ethical dilemma arises when a placebo is used despite the existence of effective treatments, potentially denying participants the best-known therapy. This could harm participants, thus conflicting with the principle of non-maleficence. While autonomy (A), beneficence (B), and justice (D) are also relevant ethical principles, the primary concern in this context is the potential harm to participants, making non-maleficence the most directly challenged principle.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": true,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 59925,
+        "question_id": 1239,
+        "question": "Which ethical principle is most challenged by continuous sedation at the end of life?",
+        "options": {
+            "A": "Beneficence",
+            "B": "Autonomy",
+            "C": "Justice",
+            "D": "Non-maleficence"
+        },
+        "correct_answer": "B",
+        "explanation": "Continuous sedation at the end of life often raises ethical concerns primarily related to the principle of autonomy. This is because the patient may be unable to make further decisions about their care once sedation begins, potentially compromising their ability to exercise autonomy regarding their end-of-life choices. Beneficence and non-maleficence are also relevant but focus more on the outcomes and potential harm of sedation rather than the patient's decision-making capacity. Justice relates to fairness and resource allocation, which is less directly challenged by sedation practices.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 60878,
+        "question_id": 199,
+        "question": "Which ethical principle is most challenged by the lack of designated hospitals and doffing coaches during Covid compared to Ebola?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Justice",
+            "C": "Non-maleficence",
+            "D": "Beneficence"
+        },
+        "correct_answer": "C",
+        "explanation": "Non-maleficence, meaning 'do no harm,' is challenged by the absence of designated hospitals and doffing coaches during Covid. These measures were crucial during Ebola to prevent harm by ensuring safe removal of protective gear, reducing self-contamination risks. Justice and beneficence are important but do not directly address harm prevention in this context. Autonomy relates to patient decision-making, not protective gear removal.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": true,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 64133,
+        "question_id": 111,
+        "question": "Which ethical principle is most challenged by technology advancements in data security and privacy in Indian medical tourism?",
+        "options": {
+            "A": "Beneficence",
+            "B": "Non-maleficence",
+            "C": "Autonomy",
+            "D": "Justice"
+        },
+        "correct_answer": "C",
+        "explanation": "The ethical principle of autonomy is most directly challenged by issues of data security and privacy, as it involves the right of patients to have control over their personal health information. Inadequate data security can lead to breaches of privacy, compromising the patient's autonomy by allowing unauthorized access to their personal health data. Beneficence (A) focuses on doing good and providing benefits, non-maleficence (B) on avoiding harm, and justice (D) on fairness in distribution of resources, none of which are as directly related to data privacy and security as autonomy is.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 37683,
+        "question_id": 209,
+        "question": "Which ethical principle is most directly addressed by specialist community nursing's focus on enabling children with complex needs to lead a normal life and participate fully in school?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Justice",
+            "C": "Beneficence",
+            "D": "Non-maleficence"
+        },
+        "correct_answer": "C",
+        "explanation": "The ethical principle of beneficence involves actions that promote the well-being of patients. In this context, enabling children with complex needs to lead a normal life and participate fully in school activities aligns with promoting their well-being and development. Autonomy (A) involves respecting the patient's right to make their own decisions, which is less directly related here. Justice (B) involves fairness and equality, which could be relevant but is not the primary focus. Non-maleficence (D) involves avoiding harm, which, while important, is not the primary principle being emphasized in the context of enhancing life experiences and opportunities.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 19800,
+        "question_id": 794,
+        "question": "In nursing ethics, how should a nurse prioritize care for patients with competing needs when some can pay and others cannot?",
+        "options": {
+            "A": "Prioritize care for patients who can pay to ensure financial stability of the healthcare practice.",
+            "B": "Provide equal care to all patients regardless of their ability to pay, ensuring fairness and justice.",
+            "C": "Focus on patients with the most urgent medical needs, regardless of their financial situation.",
+            "D": "Rotate care between patients to ensure everyone receives some attention, balancing time equally."
+        },
+        "correct_answer": "C",
+        "explanation": "The most ethical action is to focus on patients with the most urgent medical needs, regardless of their financial situation. This aligns with the principle of beneficence, prioritizing care based on medical urgency. While providing equal care regardless of payment ability reflects justice, medical urgency often takes precedence. Prioritizing based on payment ability is unethical, violating fairness and justice. Rotating care equally does not address varying urgency and could neglect critical conditions.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": true
+        }
+    },
+    {
+        "id": 80172,
+        "question_id": 924,
+        "question": "Which ethical principle is emphasized in Clinical Ethics Residency for Nurses to enhance decision-making in complex situations?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Beneficence",
+            "C": "Non-maleficence",
+            "D": "Justice"
+        },
+        "correct_answer": "A",
+        "explanation": "The principle of autonomy is critical in clinical ethics, especially in residency programs for nurses, as it emphasizes respecting patients' rights to make informed decisions about their own care. While beneficence, non-maleficence, and justice are also important ethical principles, they are typically integrated into the broader context of ethical decision-making. Autonomy directly enhances nurses' ability to navigate complex scenarios by prioritizing patient-centered care and informed consent. The other options are essential aspects of healthcare ethics but do not specifically address the enhancement of decision-making in the way autonomy does.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 69737,
+        "question_id": 740,
+        "question": "Which ethical principle was most compromised by choosing a new pediatric facility over the established CRHP center in Venita's baby's death?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Beneficence",
+            "C": "Non-maleficence",
+            "D": "Justice"
+        },
+        "correct_answer": "B",
+        "explanation": "The principle of beneficence, which involves acting in the best interest of the patient, appears to have been compromised. The family chose the new pediatric hospital because they believed it offered the most up-to-date technology, but it seems that the care provided may not have been in the best interest of the child. The family's decision was based on assumptions about technology rather than the proven care quality of the CRHP. Autonomy (A) relates to patient decision-making rights, non-maleficence (C) focuses on 'do no harm,' and justice (D) involves fairness in medical treatment, none of which are directly applicable to the ethical compromise highlighted by the passage.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 28357,
+        "question_id": 2455,
+        "question": "Which ethical principle is most relevant when considering the use of Traditional Chinese Medicine (TCM) alongside conventional medicine?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Justice",
+            "C": "Beneficence",
+            "D": "Non-maleficence"
+        },
+        "correct_answer": "C",
+        "explanation": "The principle of beneficence involves acting in the best interest of the patient by promoting good and preventing harm. When considering alternative treatments like TCM, it is important to evaluate whether these treatments will provide benefit to the patient alongside conventional medicine. Autonomy (A) refers to respecting a patient's right to make their own healthcare decisions, while justice (B) involves fairness in the distribution of resources and treatment. Non-maleficence (D) is the obligation to not inflict harm intentionally, which is also important but not the most directly applicable principle when evaluating the potential benefits of alternative treatments.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 88134,
+        "question_id": 417,
+        "question": "Which ethical principle was most violated in Japanese human experimentation during WWII?",
+        "options": {
+            "A": "Beneficence",
+            "B": "Autonomy",
+            "C": "Justice",
+            "D": "Non-maleficence"
+        },
+        "correct_answer": "D",
+        "explanation": "The principle of non-maleficence, which requires healthcare professionals to avoid causing harm, was most egregiously violated during the Japanese human experimentation of World War II. These experiments were often brutal and conducted without regard for the well-being of the subjects. While autonomy (B) was also violated, as subjects were not given a choice to participate, the extreme harm caused makes non-maleficence the most applicable principle. Beneficence (A) was not applicable as there was no intent to benefit the subjects. Justice (C) pertains to fairness and was also violated, but the direct harm inflicted aligns most closely with non-maleficence.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": true,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 81826,
+        "question_id": 1504,
+        "question": "Which ethical principle was violated by CNAs taunting a nursing home resident with a hospital gown, causing emotional harm?",
+        "options": {
+            "A": "Justice",
+            "B": "Beneficence",
+            "C": "Nonmaleficence",
+            "D": "Autonomy"
+        },
+        "correct_answer": "C",
+        "explanation": "The principle of nonmaleficence, meaning 'do no harm,' was violated as the CNAs caused emotional harm by taunting the resident and posting the event on social media. Justice, beneficence, and autonomy are not directly applicable to the violation in this incident.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": true,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 60613,
+        "question_id": 935,
+        "question": "Which ethical principle is addressed by ensuring the BEAUTY Project's salon intervention is culturally and contextually appropriate?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Nonmaleficence",
+            "C": "Justice",
+            "D": "Beneficence"
+        },
+        "correct_answer": "C",
+        "explanation": "The ethical principle of justice is concerned with fairness, equality, and appropriateness in healthcare interventions. By ensuring the intervention is culturally and contextually appropriate for salon environments, the BEAUTY Project addresses justice by respecting the diverse backgrounds and needs of the salon's clientele, thereby promoting equitable health promotion opportunities. Autonomy (A) involves respecting the individual's right to make their own decisions, which is not the primary focus here. Nonmaleficence (B) refers to 'do no harm,' which is related but not the central issue addressed by cultural appropriateness. Beneficence (D) involves promoting the well-being of others, which is a broader goal of the project but does not specifically address the cultural appropriateness aspect.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": true
+        }
+    },
+    {
+        "id": 83209,
+        "question_id": 2100,
+        "question": "Which ethical principle is most challenged by uniform sex selection policies in culturally diverse contexts with varying gender preferences?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Justice",
+            "C": "Beneficence",
+            "D": "Non-maleficence"
+        },
+        "correct_answer": "B",
+        "explanation": "The principle of justice is challenged when uniform sex selection policies are applied across diverse cultural contexts without considering the specific ethical implications and societal norms of each setting. Justice requires treating like cases alike, but also acknowledging and addressing differences in cases that are not alike. In countries with significant son preference, uniform policies may exacerbate discrimination, whereas in countries with equitable gender preferences, such policies might support reproductive autonomy. Autonomy is focused on individual choice, beneficence involves acting in the best interest of patients, and non-maleficence aims to avoid harm, but justice specifically relates to the fair and equitable treatment of individuals or groups.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": true
+        }
+    },
+    {
+        "id": 1020,
+        "question_id": 633,
+        "question": "Which ethical principle is most challenged by withdrawing life support in the Englaro case, despite legal approval?",
+        "options": {
+            "A": "Autonomy, as Eluana Englaro's wishes were never directly known.",
+            "B": "Beneficence, as withdrawing life support may be seen as causing harm.",
+            "C": "Non-maleficence, due to the potential harm in prolonging suffering.",
+            "D": "Justice, considering the uneven application of euthanasia laws in Italy."
+        },
+        "correct_answer": "A",
+        "explanation": "The principle of autonomy is most challenged in this scenario because Eluana Englaro's personal wishes were not directly known due to her vegetative state. Her father acted on what he believed her wishes would be, but this raises ethical concerns about respecting the autonomy of the patient, who cannot express consent. Beneficence and non-maleficence are also relevant but are not the most directly challenged principles here, as the decision was made under the belief it would relieve suffering. Justice is less directly challenged as the case centered more on individual autonomy and the ethical implications of withdrawing life support.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 18716,
+        "question_id": 655,
+        "question": "Which ethical principle is most challenged when a nurse manages a critical post-coronary artery bypass situation without timely physician support?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Justice",
+            "C": "Beneficence",
+            "D": "Non-maleficence"
+        },
+        "correct_answer": "C",
+        "explanation": "The principle of beneficence, which refers to the obligation to help others and promote their well-being, is most challenged in this scenario. The nurse is left to manage a rapidly deteriorating patient without adequate support from the physician, which compromises the quality of care and the patient's outcome. Option A, autonomy, is more about respecting the patient's decisions; Option B, justice, involves fairness in the distribution of resources; and Option D, non-maleficence, is about not causing harm, which is related but not the central issue in this situation.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 26628,
+        "question_id": 997,
+        "question": "In suspected intimate partner violence cases where the patient denies it, what ethical priority should a physician consider?",
+        "options": {
+            "A": "Respect the patient's autonomy and confidentiality, and document the suspicion without reporting.",
+            "B": "Immediately report to the authorities as a mandatory reporter, regardless of the patient's denial.",
+            "C": "Seek consent from the patient to report the suspicion, emphasizing the importance of safety.",
+            "D": "Wait until there is concrete evidence before taking any further action."
+        },
+        "correct_answer": "C",
+        "explanation": "The correct answer is C. In cases of suspected IPV, the physician should prioritize the patient's safety and autonomy. While mandatory reporting might be required in some jurisdictions, it is generally considered ethical to seek the patient's consent and inform them about the potential consequences of reporting. Respect for patient autonomy (A) is important, but it should not override concerns for the patient's immediate safety. Immediate reporting without consent (B) might breach confidentiality and trust unless there is a legal obligation to do so. Waiting for concrete evidence (D) can delay necessary interventions that ensure the patient's safety.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 29357,
+        "question_id": 2403,
+        "question": "Which ethical principle, highlighted in response to the Tuskegee study, was articulated in The Belmont Report to ensure fair distribution of research burdens and benefits?",
+        "options": {
+            "A": "Informed consent",
+            "B": "Distributive justice",
+            "C": "Confidentiality",
+            "D": "Non-maleficence"
+        },
+        "correct_answer": "B",
+        "explanation": "The Belmont Report, published in 1978, was influenced by the Tuskegee study and specifically articulated the concept of 'distributive justice.' This principle focuses on ensuring that the burdens and benefits of research are evenly distributed across populations, particularly protecting vulnerable populations from being exploited in research. While informed consent, confidentiality, and non-maleficence are also important ethical principles in medical research, distributive justice was the key principle highlighted in the context of the Tuskegee study and The Belmont Report.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": true
+        }
+    },
+    {
+        "id": 84816,
+        "question_id": 1190,
+        "question": "Which ethical principle is primarily involved in deciding to undergo a colonoscopy to catch treatable problems earlier?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Beneficence",
+            "C": "Non-maleficence",
+            "D": "Justice"
+        },
+        "correct_answer": "B",
+        "explanation": "Beneficence is the ethical principle involved because it focuses on actions that promote the patient's well-being, such as catching problems early for better treatment. Autonomy involves respecting patient decisions, non-maleficence is about avoiding harm, and justice concerns fairness, none of which are the primary focus here.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 51547,
+        "question_id": 1779,
+        "question": "Which ethical principle is most challenged in healthcare crisis management?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Beneficence",
+            "C": "Justice",
+            "D": "Non-maleficence"
+        },
+        "correct_answer": "C",
+        "explanation": "In crisis management, 'justice' is often most challenged due to resource scarcity, necessitating fair distribution decisions. Autonomy, beneficence, and non-maleficence are more directly challenged by individual patient care decisions.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": true
+        }
+    },
+    {
+        "id": 29536,
+        "question_id": 1124,
+        "question": "In pandemic resource allocation, why is the principle of equity often considered insufficient?",
+        "options": {
+            "A": "Equity, because it may not effectively prioritize saving the most lives during a pandemic.",
+            "B": "Legitimacy, because it does not account for the social utility of healthcare workers.",
+            "C": "Fairness, because it prioritizes the sickest individuals over those with higher survival chances.",
+            "D": "Efficiency, because it fails to consider vulnerable populations."
+        },
+        "correct_answer": "A",
+        "explanation": "The principle of equity is often considered insufficient in pandemic priority setting because it may not effectively prioritize saving the most lives. During a pandemic, the goal is to maximize the number of lives saved, which may require prioritizing resources differently than an equitable distribution would suggest.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": true
+        }
+    },
+    {
+        "id": 45855,
+        "question_id": 1778,
+        "question": "Which ethical principle is most challenged in forensic psychiatry when managing violence and using seclusion and restraint?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Beneficence",
+            "C": "Justice",
+            "D": "Non-maleficence"
+        },
+        "correct_answer": "D",
+        "explanation": "The ethical principle of non-maleficence, meaning 'do no harm,' is most challenged in cases involving seclusion and restraint due to the potential for psychological and physical harm. While autonomy, beneficence, and justice are important, non-maleficence is particularly relevant because it focuses on minimizing harm in interventions. Autonomy may be limited, but the primary ethical dilemma is ensuring harm is minimized. Beneficence is broader and does not directly address the harm involved in restraint. Justice is more about equitable treatment than the immediate ethical conflict of harm.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": true,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 1876,
+        "question_id": 791,
+        "question": "Which ethical principle is most challenged by the debate over defining death as whole brain versus higher brain cessation?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Beneficence",
+            "C": "Non-maleficence",
+            "D": "Justice"
+        },
+        "correct_answer": "C",
+        "explanation": "Non-maleficence is most challenged because it involves avoiding harm, which is crucial when determining death. Misjudging death can lead to actions like withdrawing life support or organ harvesting, potentially harming a living person. Autonomy, beneficence, and justice are relevant but do not directly address the harm related to misjudging death.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": true,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 47112,
+        "question_id": 964,
+        "question": "Which ethical principle is most important for patient autonomy in cognitive restructuring for trauma, involving behavioral experiments and imaginal reliving?",
+        "options": {
+            "A": "Autonomy, as patients should have the right to choose whether to engage in these activities.",
+            "B": "Non-maleficence, to ensure patients are not harmed by recalling traumatic experiences.",
+            "C": "Justice, to ensure patients receive equal access to cognitive restructuring interventions.",
+            "D": "Confidentiality, to protect the privacy of the patient's trauma narrative."
+        },
+        "correct_answer": "A",
+        "explanation": "Autonomy is the correct answer because it is crucial for patients to have the right to make informed choices about participating in behavioral experiments and imaginal reliving, which are part of cognitive restructuring. While non-maleficence and confidentiality are important ethical principles, they do not directly address the patient's choice in engaging with these therapeutic activities. Justice is related to fairness in access to care but does not specifically pertain to the decision-making process in therapy.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 84433,
+        "question_id": 2121,
+        "question": "Which ethical principle should guide a physician's response to a patient's request for assisted suicide due to unbearable suffering, considering life is always a good and ending it is a grave injury?",
+        "options": {
+            "A": "Autonomy, as it respects the patient's right to choose how and when to die.",
+            "B": "Non-maleficence, as it requires the physician to avoid causing harm by assisting in death.",
+            "C": "Justice, as it ensures equal access to end-of-life options for all patients.",
+            "D": "Beneficence, as it involves alleviating the patient's suffering by honoring their request."
+        },
+        "correct_answer": "B",
+        "explanation": "The passage emphasizes that life is always considered a good and intentionally ending it is seen as a grave injury. The principle of non-maleficence, which means 'do no harm,' guides the physician to avoid actions that would intentionally cause death. While autonomy respects patient choices, the passage argues against granting requests for death, suggesting that true help involves providing psychiatric, medical, and spiritual support. Justice and beneficence in this context focus on providing care and alleviating suffering without causing harm.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": true,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 74519,
+        "question_id": 589,
+        "question": "Which healthcare ethics principle is most challenged by eugenics' historical imposition on individual reproductive decisions?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Justice",
+            "C": "Non-maleficence",
+            "D": "Beneficence"
+        },
+        "correct_answer": "A",
+        "explanation": "The principle of autonomy, emphasizing individuals' rights to make informed decisions about their own lives and bodies, is most directly challenged by eugenics. Historically, eugenics involved imposing reproductive decisions without consent, undermining personal autonomy. While justice, non-maleficence, and beneficence are also compromised by eugenics, the violation of autonomy is the most significant ethical breach.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 75051,
+        "question_id": 2338,
+        "question": "What is the most relevant ethical consideration in using gene transfer for same-sex couples to blend genetic material from both partners into a child?",
+        "options": {
+            "A": "Ensuring that the technology is used only for disease prevention and not for trait selection.",
+            "B": "Addressing the potential psychological impact on children who are genetically modified.",
+            "C": "Assuring equitable access to the technology regardless of sexual orientation.",
+            "D": "Preventing the risk of genetic mutations during the gene transfer process."
+        },
+        "correct_answer": "C",
+        "explanation": "The passage highlights the controversial access to assisted reproductive technologies for same-sex couples. An important ethical consideration is assuring equitable access to these technologies irrespective of sexual orientation, as this addresses the social justice aspect of healthcare ethics. Option A focuses on the use of technology for disease prevention, which is valid but does not specifically address the issue of access for same-sex couples. Option B considers psychological impacts but is not the primary ethical concern in this context. Option D addresses technical risks, but the ethical issue at hand is more about equitable access and rights.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": true
+        }
+    },
+    {
+        "id": 58400,
+        "question_id": 2344,
+        "question": "Which ethical principle is most challenged by xenotransplantation due to potential risks and public perceptions?",
+        "options": {
+            "A": "Beneficence",
+            "B": "Autonomy",
+            "C": "Justice",
+            "D": "Non-maleficence"
+        },
+        "correct_answer": "D",
+        "explanation": "The ethical principle of non-maleficence, meaning 'do no harm,' is most challenged by xenotransplantation due to potential risks such as zoonotic infections, immune reactions, and long-term health impacts. These risks must be weighed against potential benefits, making non-maleficence a more pressing concern than beneficence, autonomy, or justice in this context.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": true,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 29616,
+        "question_id": 1532,
+        "question": "Which ethical principle was most compromised by the delayed U.S. response to COVID-19, reflecting failures in early outbreak management?",
+        "options": {
+            "A": "Autonomy, due to the imposition of lockdowns without public consent.",
+            "B": "Justice, as vulnerable populations faced disproportionate health impacts.",
+            "C": "Non-maleficence, as the health system failed to prevent harm through timely interventions.",
+            "D": "Beneficence, since healthcare providers were not prioritized for protective measures."
+        },
+        "correct_answer": "C",
+        "explanation": "The principle of non-maleficence, which is the obligation to not inflict harm intentionally, was most compromised by the delayed response to the COVID-19 pandemic. The passage highlights the failures of public health officials to manage early outbreaks effectively, which resulted in preventable harm. While justice is also a concern due to health disparities, the primary ethical failing discussed is the inability to act in a timely manner to prevent harm, reflecting a lapse in non-maleficence. Autonomy and beneficence are less directly implicated in the delayed response issue as described.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": true,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 5005,
+        "question_id": 286,
+        "question": "Which ethical principle is most directly challenged by using a 'top-down' approach in pharmacokinetic analysis that relies on population-based data?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Beneficence",
+            "C": "Justice",
+            "D": "Non-maleficence"
+        },
+        "correct_answer": "C",
+        "explanation": "The 'top-down' approach in pharmacokinetic analysis involves using population-based data to estimate parameters and develop models, which can sometimes overlook individual variability and lead to potential disparities in treatment efficacy. This can challenge the principle of justice, which emphasizes fairness and equity in healthcare. Autonomy (A) relates to patient self-determination, Beneficence (B) focuses on doing good, and Non-maleficence (D) emphasizes avoiding harm, all of which are less directly related to the equity concerns inherent in population-level approaches.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": true
+        }
+    },
+    {
+        "id": 20282,
+        "question_id": 1085,
+        "question": "Which ethical principle is most directly challenged by the 1993 ruling to continue life support for Baby K, born with anencephaly?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Justice",
+            "C": "Beneficence",
+            "D": "Non-maleficence"
+        },
+        "correct_answer": "C",
+        "explanation": "The principle of beneficence, which involves acting in the best interest of the patient, is challenged in this case. The medical team argued that continued life support was futile and not beneficial to Baby K, who had anencephaly and no potential for conscious life. While autonomy (A) relates to respecting the mother's wishes, the ethical conflict centers on whether it is beneficial (C) to continue treatment. Justice (B) involves the fair allocation of resources, which is a broader consideration but not the focus here. Non-maleficence (D) is about not causing harm, which overlaps with beneficence but does not directly address the benefit aspect of continued life support.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    },
+    {
+        "id": 12425,
+        "question_id": 1651,
+        "question": "Which ethical principle is most challenged by DNA complexity in precision medicine?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Beneficence",
+            "C": "Non-maleficence",
+            "D": "Justice"
+        },
+        "correct_answer": "C",
+        "explanation": "Non-maleficence, meaning 'do no harm,' is challenged by the complexity of DNA and bodily systems in precision medicine. This complexity can lead to unforeseen consequences or harms if treatments are not precisely targeted, risking potential harm to the patient. Autonomy involves informed decision-making, beneficence is about acting in the patient's best interest, and justice pertains to fairness in healthcare distribution. Non-maleficence is most directly related to preventing harm due to precision medicine's intricacies.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": true,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 47672,
+        "question_id": 486,
+        "question": "Which ethical principle is most challenged by continuous deep sedation until death in palliative care?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Beneficence",
+            "C": "Non-maleficence",
+            "D": "Justice"
+        },
+        "correct_answer": "A",
+        "explanation": "The practice of continuous deep sedation until death directly challenges the ethical principle of autonomy. This is because it involves decisions about the patient's ability to retain consciousness and the patient's consent. While beneficence and non-maleficence are also important considerations in palliative care, the primary ethical concern in this context is ensuring that the patient's autonomy is respected by obtaining informed consent and considering the patient's wishes. Justice, which concerns fairness and equality, is less directly implicated in this specific practice.",
+        "principlism": {
+            "autonomy": true,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": false
+        }
+    },
+    {
+        "id": 23881,
+        "question_id": 1615,
+        "question": "Which healthcare ethics principle addresses racial injustice in medical experimentation on Black Americans in 'Medical Apartheid' by Harriet A. Washington?",
+        "options": {
+            "A": "Justice, as it involves ensuring fair treatment and equitable access to healthcare for all individuals.",
+            "B": "Beneficence, as it focuses on the obligation to act in the best interest of the patient.",
+            "C": "Autonomy, as it emphasizes the importance of informed consent and respecting patients' rights to make their own decisions.",
+            "D": "Nonmaleficence, as it involves the commitment to do no harm in medical practice."
+        },
+        "correct_answer": "A",
+        "explanation": "The principle of justice is most pertinent when discussing the historical context of medical experimentation on Black Americans because it addresses the need for equitable treatment and access to healthcare for marginalized groups. Beneficence and nonmaleficence are important ethical principles but do not specifically address systemic inequalities. Autonomy is critical in ensuring informed consent but does not encompass the broader issue of racial injustice in healthcare practices.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": false,
+            "justice": true
+        }
+    },
+    {
+        "id": 10292,
+        "question_id": 1495,
+        "question": "Which ethical principle is exemplified by providing pharmacy access to patients with supported living needs?",
+        "options": {
+            "A": "Autonomy",
+            "B": "Beneficence",
+            "C": "Justice",
+            "D": "Non-maleficence"
+        },
+        "correct_answer": "B",
+        "explanation": "The principle of beneficence involves actions that promote the well-being of others. Providing pharmacy access to patients with supported living needs helps manage their medications effectively and maintain their health, aligning with promoting their well-being. Autonomy focuses on respecting patients' rights to make their own decisions, justice involves fair distribution of resources, and non-maleficence refers to the obligation to do no harm. Thus, beneficence is the most relevant principle in this context.",
+        "principlism": {
+            "autonomy": false,
+            "nonmaleficience": false,
+            "beneficience": true,
+            "justice": false
+        }
+    }
+]
