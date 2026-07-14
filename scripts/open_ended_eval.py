@@ -332,11 +332,15 @@ def summarize_records(records: Iterable[dict[str, Any]]) -> dict[str, Any]:
             raise ValueError(f"qid {record['qid']} has score and competency lengths that differ")
         add_record_stats(overall, has_answer, score_info)
 
-        answer_model = record.get("answer_model") if isinstance(record.get("answer_model"), str) else "<missing>"
-        judge_model = "<unscored>"
+        answer_model_value: object = record.get("answer_model")
+        answer_model: str = answer_model_value if isinstance(answer_model_value, str) else "<missing>"
+        judge_model: str = "<unscored>"
         if score_info is not None:
-            score = record["score"]
-            judge_model = score.get("judge_model") if isinstance(score.get("judge_model"), str) else "<missing>"
+            score_value: object = record.get("score")
+            if not isinstance(score_value, dict):
+                raise ValueError(f"qid {record['qid']} has an invalid score object")
+            judge_model_value: object = score_value.get("judge_model")
+            judge_model = judge_model_value if isinstance(judge_model_value, str) else "<missing>"
             answer_models.add(answer_model)
             judge_models.add(judge_model)
             for value in score_info[0]:
