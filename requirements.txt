@@ -1,0 +1,3 @@
+# Runtime dependencies for scripts/open_ended_eval.py and scripts/mcqa_eval.py
+openai>=1.0,<3
+tqdm>=4.0,<5

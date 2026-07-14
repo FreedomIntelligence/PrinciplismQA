@@ -1,32 +1,42 @@
-# PrinciplismQA-Demo
+# PrinciplismQA
 
 <p align="center">
+  <a href="https://aclanthology.org/2026.findings-acl.1806/">
+    <img src="https://img.shields.io/badge/ACL%20Anthology-2026.findings--acl.1806-blue.svg" alt="ACL Anthology: 2026.findings-acl.1806" />
+  </a>
   <a href="https://arxiv.org/abs/2508.05132">
     <img src="https://img.shields.io/badge/arXiv-2508.05132-b31b1b.svg" alt="arXiv:2508.05132" />
   </a>
-  
 </p>
 
-This repository hosts a **public demonstration subset** of the **PrinciplismQA** benchmark (from *“Towards Assessing Medical Ethics from Knowledge to Practice”*), intended for transparency, reproducibility, and community use. We plan to open-source the full PrinciplismQA in due course.
+This repository hosts the full **PrinciplismQA** dataset, introduced in [*“PrinciplismQA: A Philosophy-Grounded Approach to Assessing LLM-Human Clinical Medical Ethics Alignment”*](https://aclanthology.org/2026.findings-acl.1806/) at Findings of ACL 2026. The original [arXiv preprint](https://arxiv.org/abs/2508.05132) remains available for work-in-progress updates. PrinciplismQA supports assessment of medical ethics knowledge and clinical ethical reasoning through the four principles of biomedical ethics: autonomy, beneficence, non-maleficence, and justice.
 
 ---
 
-## 📂 Repository contents
+## 📂 Repository Contents
 
 | File / Folder | Description |
 |---|---|
-| `data/knowledge-mcqa.json` | 100 multiple-choice questions (with 4 options each), selected from the MCQ portion of PrinciplismQA. |
-| `data/open-ended-qa.json` | 50 open-ended (free-response) questions and their rubrics selected from the open-ended portion. |
-| `data/open-ended-rubric-principles.json` | Medical ethics principles for each rubrics for the selected open-ended questions. |
-| `README.md` | This file, describing the subset, usage, license, etc. |
+| `data/knowledge-mcqa.json` | 2,182 multiple-choice medical ethics questions, each with four options, an answer, explanation, and principlism annotations. |
+| `data/open-ended-qa.json` | 677 clinical cases containing 1,466 open-ended questions and their rubric keypoints. |
+| `data/open-ended-rubric-principles.json` | Principlism and ACGME competency annotations for the 1,466 open-ended-question rubrics. |
+| `scripts/open_ended_eval.py` | Generates and rubric-scores open-ended responses through an OpenAI-compatible API. |
+| `scripts/mcqa_eval.py` | Evaluates MCQA responses, preserves raw model output, handles refusals, and summarizes results. |
+| `scripts/evaluation_config.env.example` | Credential-free template with separate MCQA, open-ended answer, and open-ended judge endpoint profiles. |
+| `requirements.txt` | Minimal runtime dependencies for the evaluation scripts. |
+| `README.md` | This file, describing the complete dataset, usage, and license. |
 | `LICENSE` | MIT license (covering the repository and scripts). |
 
-`knowledge-mcqa.json` includes MCQAs and their answers. It uses the following schema (per item):
+## JSON Schemas
+
+### Knowledge MCQA
+
+`knowledge-mcqa.json` contains multiple-choice questions. Each item uses the following schema:
 
 ```json
 {
-    "id": int,
-    "question_id": int, // this id was for SOTA LLM verification stage
+    "id": 37652,
+    "question_id": 1,
     "question": "Question title contents",
     "options": {
         "A": "Option A Contents",
@@ -34,115 +44,202 @@ This repository hosts a **public demonstration subset** of the **PrinciplismQA**
         "C": "Option C Contents",
         "D": "Option D Contents"
     },
-    "correct_answer": "A"|"B"|"C"|"D",
+    "correct_answer": "A",
     "explanation": "Explanation to the correct answer...",
     "principlism": {
-        "autonomy": true|false,
-        "nonmaleficience": true|false,
-        "beneficience": true|false,
-        "justice": true|false
+        "autonomy": true,
+        "nonmaleficience": false,
+        "beneficience": false,
+        "justice": false
     }
 }
 ```
 
-`open-ended-qa.json` includes open-ended questions and their rubrics. It uses the following schema (per item):
+`id` is the item identifier and `question_id` is the sequential question identifier. `correct_answer` is one of `"A"`, `"B"`, `"C"`, or `"D"`. The `principlism` object uses the field names present in the released data.
+
+### Open-Ended Questions
+
+`open-ended-qa.json` is organized by clinical case. `id` is the stable case/group identifier. Each individual question under `ethical_issues` has a globally unique `qid`, which joins it to the corresponding record in `open-ended-rubric-principles.json`.
 
 ```json
 {
-    "id": int,
-    "tags": [], // list of ethic topic defined by JAMA
+    "id": 1,
+    "tags": ["Ethics topic defined by JAMA"],
     "title": "Case Title",
     "case": "Case context descriptions...",
+    "case_rewrite": "Expanded case context...",
     "ethical_issues": [
       {
+        "qid": 1,
         "question": "Question title contents...",
-        "keypoints": [] // list of rubric keypoints for this question
-      },
-      ... // note that one case may correspond to more than 1 questions
+        "keypoints": ["Rubric keypoint..."]
+      }
     ]
 }
 ```
 
-`open-ended-rubric-principles.json` uses the following schema (per item):
+### Open-Ended Rubrics
+
+`open-ended-rubric-principles.json` stores the principles and ACGME competencies associated with each open-ended question. Its `id` is the same case/group ID, and its `qid` is the unique question ID shared with the question file.
 
 ```json
 {
-    "id": int,
+    "id": 1,
+    "qid": 1,
     "question": "question title",
-    "principles": [], // list of principles in Principlism this question corresponds to 
+    "principles": ["autonomy"],
     "keypoint_competencies": [
         {
             "keypoint": "rubric content",
             "competency": "corresponding ACGME competency"
-        },
-        ...
+        }
     ]
-},
+}
 ```
 
-For open-ended items, `options` is `null`.
+The `qid` values are contiguous from 1 through 1,466. Use `qid` to join an open-ended question to its rubric; do not use the case-level `id` alone because a case can contain multiple questions.
 
 ---
 
 ## 🎯 Purpose & Use Cases
 
-* **Rebuttal / review transparency:** reviewers can inspect a small but representative sample to understand model behavior or error modes.
-* **Community inspection & baseline checks:** researchers may use this subset to quickly sanity-check methods, sanity tests, or toy experiments.
-* **Baseline seed / testing harness:** you may embed this as a small validation split before switching to the full dataset (when released).
+* **Benchmarking medical ethics knowledge:** assess multiple-choice performance with answers, explanations, and annotations for the four principles of biomedical ethics.
+* **Evaluating clinical ethical reasoning:** generate and score open-ended responses against question-specific rubric keypoints, principles, and ACGME competencies.
+* **Studying principle-level behavior:** filter items by autonomy, beneficence, non-maleficence, or justice to analyze model strengths, trade-offs, and failure modes.
+* **Reproducible research and baselines:** use the full release to establish, compare, and report medical-ethics evaluation results.
 
-> **Note:** this is *not* the full PrinciplismQA. When ready, we will release the full benchmark under the same licensing terms.
-
-We encourage community use (with citation) for non-commercial research and educational work. If you wish to commercialize or integrate in proprietary systems, please contact the authors to discuss terms or future licensing.
+The dataset is intended for research, education, and evaluation of clinical AI systems. It is not clinical guidance and should not be used as the sole basis for patient-care decisions.
 
 ---
 
-## ✅ Usage instructions
+## Usage Instructions
 
 1. Clone or download this repository.
 2. Load the JSON files using your preferred JSON library (e.g. Python’s `json`, `orjson`, etc.).
-3. For MCQ items, you may present the four `options` to a model or human annotator and check whether its predicted answer matches `answer`.
-4. For open-ended items, you may compute similarity / scoring heuristics or prompt the model and compare output against the `answer` / explanation.
-5. Optionally filter by `principle` to study model behavior on specific medical ethics principles.
+3. For MCQ items, present the four `options` to a model or human annotator and compare the prediction with `correct_answer`.
+4. For open-ended items, generate a response for each question and score it against its `keypoints`. Join `open-ended-qa.json` and `open-ended-rubric-principles.json` using `qid` to retrieve its principles and keypoint competencies.
+5. Optionally filter knowledge MCQAs by their `principlism` annotations, or filter open-ended rubrics by `principles`, to study principle-specific behavior.
 
-We recommend you **not** use this small subset as your final evaluation. Rather, it is intended for debugging, sanity checking, and demonstration. When the full dataset is released, you should re-run your full evaluation pipeline against the complete benchmark.
+### Recommended Evaluation Scripts
+
+The evaluation scripts require Python 3.10+ and the minimal dependencies listed in `requirements.txt`. They use OpenAI-compatible chat-completions endpoints and read credentials from an environment variable rather than from source code.
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+Start with `scripts/evaluation_config.env.example` and keep the populated configuration outside version control. It defines separate `MCQA_*`, `OPEN_ENDED_ANSWER_*`, and `OPEN_ENDED_JUDGE_*` values, so MCQA evaluation, open-ended answer generation, and open-ended rubric judging can use different credentials, base URLs, and models.
+
+```bash
+source /path/to/evaluation_config.env
+```
+
+The examples below pass each profile explicitly. The scripts use the bundled data files by default.
+
+### Open-Ended Evaluation
+
+`scripts/open_ended_eval.py` validates the `qid` join between the question and rubric files before calling a model. The default `both` stage generates an answer and scores it against the corresponding keypoints. Results are checkpointed atomically and the same command resumes completed compatible records. A `tqdm` progress bar reports completed questions, including failed requests.
+
+```bash
+# Validate the first three joined questions without API calls.
+python scripts/open_ended_eval.py --dry-run --limit 3
+
+# Generate and score ten questions with one model for answers and another for judging.
+python scripts/open_ended_eval.py \
+  --answer-model "$OPEN_ENDED_ANSWER_MODEL" \
+  --answer-base-url "$OPEN_ENDED_ANSWER_BASE_URL" \
+  --answer-api-key-env OPEN_ENDED_ANSWER_API_KEY \
+  --judge-model "$OPEN_ENDED_JUDGE_MODEL" \
+  --judge-base-url "$OPEN_ENDED_JUDGE_BASE_URL" \
+  --judge-api-key-env OPEN_ENDED_JUDGE_API_KEY \
+  --output results/open_ended_eval.json \
+  --limit 10
+```
+
+Use `--stage generate` to create answers only, or `--stage score` to score answers already stored in an output file. Use `--qid` repeatedly to select specific questions, `--workers` to control concurrency, and `--force` to rerun records that would otherwise be resumed.
+
+Analyze a completed open-ended result without calling a model:
+
+```bash
+python scripts/open_ended_eval.py \
+  --analyze results/open_ended_eval.json \
+  --summary-output results/open_ended_eval_summary.json
+```
+
+The open-ended analyzer reports answer and scoring coverage separately from performance, score totals and normalized scores, the distribution of 0.0/0.5/1.0 keypoint judgments, and breakdowns by principlism principle, ACGME competency, and answer/judge model pair.
+
+### MCQA Evaluation
+
+`scripts/mcqa_eval.py` asks the model for one of `A`, `B`, `C`, or `D` and compares the extracted answer with `correct_answer`. Each completed result always includes `original_response`. When no unambiguous option can be extracted, `model_answer` and `is_correct` are `null`; `response_status` distinguishes `refusal` from `unparseable` responses. A `tqdm` progress bar reports completed questions, including failed requests.
+
+```bash
+# Validate the first three MCQA items without API calls.
+python scripts/mcqa_eval.py --dry-run --limit 3
+
+# Evaluate five questions and checkpoint each result.
+python scripts/mcqa_eval.py \
+  --model "$MCQA_MODEL" \
+  --base-url "$MCQA_BASE_URL" \
+  --api-key-env MCQA_API_KEY \
+  --output results/mcqa_eval.json \
+  --limit 5 \
+  --save-interval 1
+
+# Analyze a completed result without calling a model.
+python scripts/mcqa_eval.py \
+  --analyze results/mcqa_eval.json \
+  --summary-output results/mcqa_eval_summary.json
+```
+
+The MCQA analyzer reports overall answer, correctness, refusal, and unparseable-response counts; answer and refusal rates; and accuracy by the principlism annotations stored in the result file.
+
+Do not commit API keys or generated model responses unless their disclosure has been reviewed for your intended use.
+
+For reproducible results, report the data-file version or commit SHA used in an evaluation and cite the accompanying ACL Anthology paper.
 
 ---
 
-## 📜 Licensing & attribution
+## 📜 Licensing & Attribution
 
-We currently use the **MIT License** for the repository (code, scripts, and metadata), which is a permissive open-source license.
+PrinciplismQA is released under the **MIT License**, a permissive license that allows use, modification, and distribution provided that the copyright and license notices are retained.
 For background: the MIT License allows reuse, modification, and distribution with minimal restrictions (so long as you retain copyright and license notices).
 
-Because this is a dataset / benchmark subset (not just code), you might wonder whether a dataset-style license (e.g. CC-BY) is more appropriate. As a practical compromise:
+Please cite the accompanying paper when you use the dataset in research or derivative work.
 
-* We maintain MIT for the repository itself (scripts, metadata, file structure, etc.).
-* You are free to use, adapt, and redistribute the included `.json` items *for research and educational purposes*, provided you retain attribution to the original paper and this repository.
-* If you wish to use it in a commercial product or large-scale deployment, please contact us for a licensing discussion.
+## 🙋 Contributions & Issues
 
-When we release the **full PrinciplismQA**, we may adopt a more dedicated dataset license (e.g. CC-BY or a data commons license) to better align with norms around data sharing in ML and ethics.
-
-## 🙋 Contributions & issues
-
-* This subset is not intended to be extended by outside users (so we discourage pull requests that add new questions).
-* If you find an error (typo in question, mismatch of `answer` or `principle`), please open an **issue** in this repository.
-* When the full benchmark is available, we may accept community contributions, issue corrections, or extensions with appropriate review.
+* If you find a typo, answer error, question-rubric mismatch, or annotation issue, please open an **issue** in this repository.
+* Please describe the affected file and, for open-ended data, include both `id` and `qid` in the issue report.
+* Contributions that correct data or improve documentation are welcome through issues and pull requests.
 
 ---
 
-If you use these subsets in work, we acknowledge (but do not require) users to include a line like:
-
-> “Parts of the data come from the PrinciplismQA-Demo subset; full PrinciplismQA will be released by the authors.”
-
-And meanwhile, please cite us by
+If you use this dataset in work, we acknowledge (but do not require) a citation:
 
 ```bibtex
-@misc{hong2025assessingmedicalethicsknowledge,
-      title={Towards Assessing Medical Ethics from Knowledge to Practice}, 
-      author={Chang Hong and Minghao Wu and Qingying Xiao and Yuchi Wang and Xiang Wan and Guangjun Yu and Benyou Wang and Yan Hu},
-      year={2025},
-      eprint={2508.05132},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2508.05132}, 
+@inproceedings{hong-etal-2026-principlismqa,
+    title = "{P}rinciplism{QA}: A Philosophy-Grounded Approach to Assessing {LLM}-Human Clinical Medical Ethics Alignment",
+    author = "Hong, Chang  and
+      Wu, Minghao  and
+      Xiao, Qingying  and
+      Wang, Yuchi  and
+      Wan, Xiang  and
+      Yu, Guangjun  and
+      Wang, Benyou  and
+      Hu, Yan",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-acl.1806/",
+    doi = "10.18653/v1/2026.findings-acl.1806",
+    pages = "36229--36245",
+    ISBN = "979-8-89176-395-1",
+    abstract = "As medical LLMs transition to clinical deployment, assessing their ethical reasoning capability becomes critical. While achieving high accuracy on knowledge benchmarks, LLMs lack validated assessment for navigating ethical trade-offs in clinical decision-making where multiple valid solutions exist. Existing benchmarks lack systematic approaches to incorporate recognized philosophical frameworks and expert validation for ethical reasoning assessment. We introduce PrinciplismQA, a philosophy-grounded approach to assessing LLM clinical medical ethics alignment. Grounded in Principlism, our approach provides a systematic methodology for incorporating clinical ethics philosophy into LLM assessment design. PrinciplismQA comprises 3,648 expert-validated questions spanning knowledge assessment and clinical reasoning. Our expert-calibrated pipeline enables reproducible evaluation and models ethical biases. Evaluating recent models reveals significant ethical reasoning gaps despite high knowledge accuracy, demonstrating that knowledge-oriented training does not ensure clinical ethical alignment. PrinciplismQA provides a validated tool for assessing clinical AI deployment readiness."
 }
 ```
